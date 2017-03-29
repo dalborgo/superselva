@@ -140,6 +140,12 @@ jQuery(function ($) {
             enabled:true,
           }
         });
+		$('.image-link2').magnificPopup({
+			type: 'image',
+			gallery:{
+				enabled:false,
+			}
+		});
 
     }());   
 

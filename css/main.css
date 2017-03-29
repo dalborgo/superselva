@@ -608,28 +608,28 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .crane-lifting {
-	/*background-image: url(../images/service/5.jpg); 1000x667*/
+	/*background-image: url(../images/service/5.jpg); 1000x667 mod*/
 }
 
 .crane-lifting .overlay {
-	background-color: rgba(252, 216, 70, 0.92);
+	background-color: rgba(252, 216, 70, 1);
 }
 
 .home-plumbing {
-	/*background-image: url(../images/service/6.jpg);        500x233*/
+	/*background-image: url(../images/service/6.jpg);        500x233   modificato*/
 }
 
 .home-plumbing .overlay {
-	background-color: rgba(243, 204, 41, 0.90);
-	border-left:1px solid rgba(236, 198, 35, 0.99);
+	background-color: rgba(243, 204, 41, 1);
+	border-left:1px solid rgba(236, 198, 35, 1);
 }
 
 .house-plans {
-	background-image: url(../images/service/3.jpg);
+	/*background-image: url(../images/service/3.jpg); 132x150   mod*/
 }
 
 .house-plans .overlay {
-	background-color: rgba(238, 195, 19, 0.90);
+	background-color: rgba(238, 195, 19, 1);
 }
 
 .house-plans:before,
@@ -642,13 +642,13 @@ a:after, a:before, .btn.btn-primary i,
 .crane-lifting:before {
     right: 0;
     border-left: 385px solid transparent;
-    border-bottom: 25px solid rgba(252, 216, 70, 0.90);	
+    border-bottom: 25px solid rgba(252, 216, 70, 1);
 }
 
 .house-plans:before {
 	left: 0;
     border-right: 385px solid transparent;
-    border-bottom: 25px solid rgba(238, 195, 19, 0.95);	
+    border-bottom: 25px solid rgba(238, 195, 19, 1);
 }
 
 .box-title {
