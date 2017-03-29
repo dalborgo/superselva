@@ -149,6 +149,10 @@ a:focus, button:focus, .btn:focus,
 	margin-bottom: 80px;
 }
 
+.section-title.scuro{
+	background-color: #283949;
+	padding: 5px;
+}
 .section-title h1 {
 	font-size: 20px;
 	text-transform: uppercase;
@@ -604,7 +608,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .crane-lifting {
-	background-image: url(../images/service/5.jpg);
+	/*background-image: url(../images/service/5.jpg); 1000x667*/
 }
 
 .crane-lifting .overlay {
@@ -612,7 +616,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .home-plumbing {
-	background-image: url(../images/service/6.jpg);
+	/*background-image: url(../images/service/6.jpg);        500x233*/
 }
 
 .home-plumbing .overlay {
@@ -962,17 +966,19 @@ a:after, a:before, .btn.btn-primary i,
 	transform: rotate(-2deg);
 }
 
-.features-section .feature-image img{
+/*.features-section .feature-image img{                 modificato
 	border-left:1px solid #e5e5e5;
-}
+}*/
 
 .feature-image.image-right {
 	padding-right:18px;
 }
 
-.feature-image.image-right img {
+/*
+.feature-image.image-right img {                     modificato
 	border-right:1px solid #e5e5e5;
 }
+*/
 
 .feature-image .image-border {	
 	position:relative;
@@ -1029,7 +1035,7 @@ a:after, a:before, .btn.btn-primary i,
 /* Work Process */
 
 .work-process {
-	background-image: url(../images/bg/3.jpg);
+	/*background-image: url(../images/bg/3.jpg); 1020x793   modificato*/
 	height:725px;
 }
 
@@ -1041,8 +1047,12 @@ a:after, a:before, .btn.btn-primary i,
     margin-bottom: 40px;
 }
 
+/*.process-image {
+	margin-top: -80px;                         modificato
+	text-align:center;
+}*/
 .process-image {
-	margin-top: -80px;
+	margin-top: -12px;
 	text-align:center;
 }
 
@@ -1971,7 +1981,7 @@ a:after, a:before, .btn.btn-primary i,
 /* Clients Section */
 
 .clients-section {
-	background-image: url(../images/bg/brand-bg.jpg);	
+	/*background-image: url(../images/bg/brand-bg.jpg);	1920x700                modificato*/
 }
 
 .clients-section .overlay {

@@ -140,13 +140,114 @@
                     <h4>We have completed lot of projects. You can hire us for your future project.</h4>
                 </div>                    
             </div><!-- container -->
-        </div><!-- services --> 
+        </div><!-- services -->
+        <div class="service-section section-padding">
+            <div class="container">
+                <div class="section-title text-center scuro">
+                    <h1>La Nostra</h1>
+                    <h2 style="color:white">Società</h2>
+                </div>
+               <!-- <div class="service-tabs text-center">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#residential" data-toggle="tab">Residential Construction</a></li>
+                        <li role="presentation"><a href="#industrial" data-toggle="tab">Industrial Construction</a></li>
+                        <li role="presentation"><a href="#plumbing" data-toggle="tab">Home Plumbing</a></li>
+                        <li role="presentation"><a href="#shipment" data-toggle="tab">Cargo Shipment</a></li>
+                    </ul>
+                </div>-->
 
+                <div class="tab-content service-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="residential">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="service-image">
+                                    <img class="img-responsive" src="images/foto/02.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-info">
+<!--                                    <h4>Residential Construction</h4>-->
+                                    <p>Fin dall’inizio della sua attività, <b>nel 1963</b>, la <b>SUPER SELVA</b> ha sempre cercato la crescita tecnologica e commerciale, dando un valido contributo allo sviluppo che si è caratterizzato in questi ultimi decenni nel settore dei marmi, pietre, graniti, agglomerati e gres.
+<br><br>
+                                        La continua ricerca e la lunga esperienza maturata, ha consentito a <b>SUPER SELVA</b> di offrire prodotti di alta qualità e dalle caratteristiche tecniche ben differenti.<br><br>
+
+                                        L’ampio ventaglio di prodotti, la capacità e la disponibilità di produrre diverse durezze e l’alta qualità tecnologica raggiunta, permette a <b>SUPER SELVA</b> di soddisfare, a condizioni competitive, le esigenze di qualsiasi impianto di levigatura e lucidatura <b>in tutto il mondo</b>.
+                                        <br><br>
+                                        Dal 2002 <b>SUPER SELVA</b> opera con un <b>Marchio di fabbrica Internazionale</b> registrato.</p>
+                                 <!--   <ul class="service-structure list-inline">
+                                        <li class="planing"><a href="#"><i class="fa fa-search"></i></a><span>Planning</span></li>
+                                        <li class="analysis"><a href="#"><i class="fa fa-pencil"></i></a><span>Analysis</span></li>
+                                        <li class="construc"><a href="#"><i class="fa fa-hand-pointer-o"></i></a><span>Construction</span></li>
+                                        <li class="launch"><a href="#"><i class="fa fa-check"></i></a><span>Launch</span></li>
+                                    </ul>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab pane -->
+
+                    <div role="tabpanel" class="tab-pane fade" id="industrial">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="service-info">
+                                    <h4>Industrial Construction</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
+                                    <p>Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-image">
+                                    <img class="img-responsive" src="images/service/service2.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div><!-- row -->
+                    </div><!-- tab pane -->
+
+                    <div role="tabpanel" class="tab-pane fade" id="plumbing">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="service-item">
+                                    <div class="service-info">
+                                        <h4>Home Plumbing consectetur adipisicing elit</h4>
+                                        <p> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- row -->
+                    </div><!-- tab pane -->
+
+                    <div role="tabpanel" class="tab-pane fade" id="shipment">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="service-info">
+                                    <h4>Cargo shipment process</h4>
+                                    <p> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="service-info">
+                                    <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cargo shipment consectetur adipisicing elit</li>
+                                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Typi non habent claritatem insitam</li>
+                                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Investigationes demonstraverunt lectores legere me lius quod </li>
+                                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Humanitatis per seacula quarta decima et quinta decima</li>
+                                        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ut enim ad minim veniam, quis nost exercitation ullamco</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- row -->
+                    </div><!-- tab pane -->
+                </div><!-- tab content -->
+            </div><!-- container -->
+        </div><!-- service section -->
         <div class="features-section section-padding">
             <div class="container">
                 <div class="section-title text-center">
-                    <h1>Why Choose Us</h1>
-                    <h2>We have awesome Features</h2>
+                    <h1>Perché sceglierci</h1>
+                    <h2>Abbiamo prodotti di alta qualità</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-5 no-padding">
@@ -155,25 +256,25 @@
                                 <li role="presentation" class="active features-before">
                                     <a class="feature-tab" href="#experienced" data-toggle="tab">
 										<span class="features-image features">
-											<img class="img-responsive" src="images/features/1.png" alt="Image">
+											<img class="img-responsive" src="images/prod/frankfurt_p.jpg" alt="Image">
 										</span>
-										Experienced Engineers
+                                        1. FRANKFURT
 									</a>
 								</li>
                                 <li role="presentation" class="before-middle">
                                     <a class="feature-tab" href="#awesome" data-toggle="tab">
 										<span class="features-image image-middle">
-											<img class="img-responsive" src="images/features/2.png" alt="Image">
+											<img class="img-responsive" src="images/prod/levigacoste_p.jpg" alt="Image">
 										</span>
-										Awesome Architecture
+                                        2. LEVIGACOSTE
 									</a>
 								</li>
                                 <li role="presentation" class="features-before">
                                     <a class="feature-tab" href="#lifetime" data-toggle="tab">
 										<span class="features-image features">
-											<img class="img-responsive" src="images/features/3.png" alt="Image">
+											<img class="img-responsive" src="images/prod/tangenziali_p.jpg" alt="Image">
 										</span>
-										Lifetime Client Support
+                                        3. TANGENZIALI
 									</a>
 								</li>
                             </ul>                      
@@ -187,7 +288,7 @@
                                     <div class="row">
 										<div class="col-sm-6 no-padding">
 											<div class="feature-image">
-												<img class="img-responsive" src="images/features/1.jpg" alt="image">
+												<img class="img-responsive" src="images/prod/frankfurt_g.jpg" alt="image">
 											</div>                                                    
 										</div>
 										<div class="col-sm-6 no-padding">
@@ -207,7 +308,7 @@
                                     <div class="row">
 										<div class="col-sm-6 no-padding">
 											<div class="feature-image">
-												<img class="img-responsive" src="images/features/2.jpg" alt="image">
+												<img class="img-responsive" src="images/prod/levigacoste_g.jpg" alt="image">
 											</div>
 										</div> 
 										<div class="col-sm-6 no-padding">
@@ -238,7 +339,7 @@
 
 										<div class="col-sm-6 no-padding">
 											<div class="feature-image image-right">
-												<img class="img-responsive" src="images/features/3.jpg" alt="image">
+												<img class="img-responsive" src="images/prod/tangenziali_g2.jpg" alt="image">
 											</div>                                       
 										</div>
 									</div>
@@ -256,15 +357,15 @@
                 <div class="row">
                     <div class="col-md-5 hidden-xs hidden-sm">
                         <div class="process-image">
-                            <img class="img-responsive" src="images/process/1.png" alt="image">
+                            <img class="img-responsive" src="images/foto/03.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12">
                         <div class="process-accordion">
                             <div class="process-info">
                                 <div class="section-title">
-                                    <h1>Process We Follow</h1>
-                                    <h2>We Satisfy our Clients</h2>
+                                    <h1>I nostri</h1>
+                                    <h2>Eventi</h2>
                                 </div>
                                 <div class="panel-group" id="process-accordion" role="tablist">
                                     <div class="panel panel-default active-process">
@@ -273,17 +374,17 @@
                                                 <img class="img-responsive" src="images/process/2.png" alt="image">
                                             </div> 
                                             <div class="process-bg">
-                                                <img class="img-responsive" src="images/process/6.png" alt="image">
+                                                <img class="img-responsive" src="images/footer/2g.png" alt="image">
                                             </div>                                             
                                             <h4 class="panel-title">
 												<a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process" aria-expanded="true" aria-controls="process">
-												Project Initiation
-												</a>
+                                                    EXPOSTONE - Mosca
+                                                </a>
                                             </h4>
                                         </div>
                                         <div id="process" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="initiation">
                                             <div class="panel-body">                                      
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
+                                                <p>25 - 28 Giugno 2013<br><img src="images/eventi/expostone-2013.jpg" width="400"></p>
                                             </div>
                                         </div>
                                     </div><!-- panel-default -->
@@ -294,17 +395,17 @@
                                                 <img class="img-responsive" src="images/process/3.png" alt="image">
                                             </div> 
                                             <div class="process-bg">
-                                                <img class="img-responsive" src="images/process/7.png" alt="image">
+                                                <img class="img-responsive" src="images/footer/2g.png" alt="image">
                                             </div>                                             
                                             <h4 class="panel-title">
                                             <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-one" aria-expanded="true" aria-controls="process-one">
-                                            Achitect Selection
+                                                MARMOMACC - Verona
                                             </a>
                                             </h4>
                                         </div>
                                         <div id="process-one" class="panel-collapse collapse" role="tabpanel" aria-labelledby="selection">
                                             <div class="panel-body">                                       
-                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
+                                               <p>25 - 28 Settembre 2013<br><br></p>
                                             </div>
                                         </div>
                                     </div><!-- panel-default -->
@@ -315,29 +416,29 @@
                                                 <img class="img-responsive" src="images/process/4.png" alt="image">
                                             </div> 
                                             <div class="process-bg">
-                                                <img class="img-responsive" src="images/process/8.png" alt="image">
+                                                <img class="img-responsive" src="images/footer/2g.png" alt="image">
                                             </div>                                             
                                             <h4 class="panel-title">
                                             <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-two" aria-expanded="true" aria-controls="process-two">
-                                            Builing Programs
+                                                BIG 5 Show - DUBAI (UAE)
                                             </a>
                                             </h4>
                                         </div>
                                         <div id="process-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="programs">
                                             <div class="panel-body">                                       
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
+                                                <p>25 - 28 Novembre 2013<br><br></p>
                                             </div>
                                         </div>
                                     </div><!-- panel-default -->
 
-                                    <div class="panel panel-default">
+                                    <!--<div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="finalize">
                                            
                                             <div class="process-number">
                                                 <img class="img-responsive" src="images/process/5.png" alt="image">
                                             </div> 
                                             <div class="process-bg">
-                                                <img class="img-responsive" src="images/process/9.png" alt="image">
+                                                <img class="img-responsive" src="images/footer/2g.png" alt="image">
                                             </div>  
 											<h4 class="panel-title">											
                                             <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-three" aria-expanded="true" aria-controls="process-three">
@@ -350,7 +451,8 @@
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
                                             </div>
                                         </div>
-                                    </div><!-- panel-default -->
+                                    </div>-->
+                                    <!-- panel-default -->
                                 </div>                            
                             </div>
                         </div>
@@ -359,101 +461,7 @@
             </div><!-- container -->
         </div><!-- process -->  
 
-        <div class="service-section section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1>Our Services</h1>
-                    <h2>We Offer Our Clients</h2>
-                </div>
-                <div class="service-tabs text-center">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#residential" data-toggle="tab">Residential Construction</a></li>
-                        <li role="presentation"><a href="#industrial" data-toggle="tab">Industrial Construction</a></li>
-                        <li role="presentation"><a href="#plumbing" data-toggle="tab">Home Plumbing</a></li>
-                        <li role="presentation"><a href="#shipment" data-toggle="tab">Cargo Shipment</a></li>
-                    </ul>                     
-                </div>
 
-                <div class="tab-content service-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="residential">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="service-image">
-									<img class="img-responsive" src="images/service/service.jpg" alt="image"> 
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="service-info">
-									<h4>Residential Construction</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
-									<ul class="service-structure list-inline">
-										<li class="planing"><a href="#"><i class="fa fa-search"></i></a><span>Planning</span></li>
-										<li class="analysis"><a href="#"><i class="fa fa-pencil"></i></a><span>Analysis</span></li>
-										<li class="construc"><a href="#"><i class="fa fa-hand-pointer-o"></i></a><span>Construction</span></li>
-										<li class="launch"><a href="#"><i class="fa fa-check"></i></a><span>Launch</span></li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- row --> 
-                    </div><!-- tab pane -->
-
-                    <div role="tabpanel" class="tab-pane fade" id="industrial">
-                        <div class="row">
-							<div class="col-sm-6">
-								<div class="service-info">
-									<h4>Industrial Construction</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
-									<p>Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="service-image">
-									<img class="img-responsive" src="images/service/service2.jpg" alt="image"> 
-								</div>
-							</div>
-						</div><!-- row --> 
-                    </div><!-- tab pane --> 
-
-                    <div role="tabpanel" class="tab-pane fade" id="plumbing">
-                        <div class="row">
-							<div class="col-sm-12">
-								<div class="service-item">
-									<div class="service-info">
-										<h4>Home Plumbing consectetur adipisicing elit</h4>
-										<p> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. </p>	
-									</div>
-								</div>
-							</div>  
-						</div><!-- row --> 
-                    </div><!-- tab pane --> 
-
-                    <div role="tabpanel" class="tab-pane fade" id="shipment">
-                        <div class="row">
-							<div class="col-sm-6">
-								<div class="service-info">
-									<h4>Cargo shipment process</h4>
-									<p> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua.</p>	
-								</div>
-							</div>  
-							<div class="col-sm-6">
-								<div class="service-info">
-									<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-									<ul>
-										<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cargo shipment consectetur adipisicing elit</li>
-										<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Typi non habent claritatem insitam</li>
-										<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Investigationes demonstraverunt lectores legere me lius quod </li>
-										<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Humanitatis per seacula quarta decima et quinta decima</li>
-										<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ut enim ad minim veniam, quis nost exercitation ullamco</li>
-									</ul>	
-								</div>
-							</div>                                  
-						</div><!-- row --> 
-                    </div><!-- tab pane -->                                   
-                </div><!-- tab content -->                
-            </div><!-- container -->
-        </div><!-- service section --> 
 
         <div class="portfolio-section">
             <div class="portfolio-title image-bg">
@@ -846,7 +854,7 @@
             </div>        
         </div><!-- brands -->
 
-        <?php include 'footer.php';?>
+        <?php include 'piede.php';?>
 		<!-- script -->
         <script src="js/jquery.min.js"></script>
         <script src="js/modernizr.min.js"></script>
