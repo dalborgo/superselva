@@ -36,55 +36,8 @@
 
 </head>
 <body>
-<header id="header">
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="info-box">
-                        <span class="icon-left"><i class="fa fa-envelope"></i></span>
-                        <a href="#">info@superselva.it</a>
-                    </div>
-                </div>
 
-                <div class="col-sm-6">
-                    <div class="info-box pull-right">
-                        <span>+39 045 7847122</span>
-                        <span class="icon-right"><i class="fa fa-phone"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div><!-- container -->
-    </div><!-- top-bar -->
-
-    <div class="main-menu">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="logo" href="index.html"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#"></a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Società</a></li>
-                        <li><a href="#">Prodotti</a></li>
-                        <li><a href="#">Eventi</a></li>
-                        <li><a href="#">Contatti</a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-            </div><!-- container -->
-        </nav><!-- navbar -->
-    </div><!-- main menu -->
-</header><!-- Header -->
+<?php include_once "header.php" ?>
 
 <div class="home-section image-bg">
     <div class="overlay"></div>
@@ -163,19 +116,17 @@
                     <div class="col-sm-6">
                         <div class="service-image">
                             <a class="image-link2" href="images/foto/02.jpg" alt="image">
-                                <img class="img-responsive" src="images/foto/02.jpg" alt="image">
+                                <img class="img-responsive bordo" src="images/foto/02.jpg" alt="image">
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="service-info">
                             <!--                                    <h4>Residential Construction</h4>-->
-                            <p>Fin dall’inizio della sua attività, <b>nel 1963</b>, la <b>SUPER SELVA</b> ha sempre
+                            <p style="text-align: justify">Fin dall’inizio della sua attività, <b>nel 1963</b>, la <b>SUPER SELVA</b> ha sempre
                                 cercato la crescita tecnologica e commerciale, dando un valido contributo allo sviluppo
                                 che si è caratterizzato in questi ultimi decenni nel settore dei marmi, pietre, graniti,
-                                agglomerati e gres.
-                                <br><br>
-                                La continua ricerca e la lunga esperienza maturata, ha consentito a <b>SUPER SELVA</b>
+                                agglomerati e gres. La continua ricerca e la lunga esperienza maturata, ha consentito a <b>SUPER SELVA</b>
                                 di offrire prodotti di alta qualità e dalle caratteristiche tecniche ben differenti.<br><br>
 
                                 L’ampio ventaglio di prodotti, la capacità e la disponibilità di produrre diverse
@@ -280,11 +231,12 @@
         </div><!-- tab content -->
     </div><!-- container -->
 </div><!-- service section -->
-<div class="features-section section-padding">
+
+<div class="features-section section-padding" style="padding-top: 0px">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center scuro">
             <h1>Perché sceglierci</h1>
-            <h2>Abbiamo prodotti di alta qualità</h2>
+            <h2 style="color: white">Abbiamo prodotti di alta qualità</h2>
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-5 no-padding">
@@ -396,14 +348,141 @@
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- features section -->
+<div class="portfolio-section" style="padding-bottom: 150px">
+    <div class="portfolio-title image-bg">
+        <div class="overlay"></div>
+        <div class="section-title">
+            <div class="container">
+                <h1>Galleria</h1>
+                <h2>i nostri prodotti</h2>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-content">
+        <div class="portfolio-slider">
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
+                        <p>FRANKFURT DIAMANTATI</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
 
-<div class="work-process image-bg">
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/prod_dett/frankfurt_magnesite.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>MAGNESITE</h4>
+                        <p>FRANKFURT DIAMANTATI</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_magnesite.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/foto/03.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>Ascetic Interior Design</h4>
+                        <p>Interior Project</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/foto/03.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/prod_dett/frankfurt_lucidanti-5extra.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>5 / EXTRA</h4>
+                        <p>FRANKFURT LUCIDANTI</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_lucidanti-5extra.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>PER MARMO BLU</h4>
+                        <p>FRANKFURT PULITORI</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive" src="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg" alt="image">
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <h4>PER MARMO BIANCO</h4>
+                        <p>FRANKFURT PULITORI</p>
+                    </div>
+                    <div class="portfolio-icons">
+                        <a href="project-details.html"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--   <div class="portfolio">
+                   <div class="portfolio-item">
+                       <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
+                   </div>
+                   <div class="portfolio-overlay">
+                       <div class="portfolio-info">
+                           <h4>Ascetic Interior Design</h4>
+                           <p>Interior Project</p>
+                       </div>
+                       <div class="portfolio-icons">
+                           <a href="project-details.html"><i class="fa fa-link"></i></a>
+                           <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
+                       </div>
+                   </div>
+               </div>-->
+        </div>
+    </div><!-- portfolio content -->
+</div>
+<!-- portfolio section -->
+
+<div class="work-process image-bg" >
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-5 hidden-xs hidden-sm">
                 <div class="process-image">
-                    <img class="img-responsive" src="images/foto/03.jpg" alt="image">
+                    <img class="img-responsive bordo" src="images/foto/03.jpg" alt="image">
                 </div>
             </div>
             <div class="col-md-7 col-sm-12">
@@ -515,134 +594,8 @@
 </div><!-- process -->
 
 
-<div class="portfolio-section">
-    <div class="portfolio-title image-bg">
-        <div class="overlay"></div>
-        <div class="section-title">
-            <div class="container">
-                <h1>The Projects</h1>
-                <h2>We already completed</h2>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-content">
-        <div class="portfolio-slider">
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/2.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/3.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/3.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/4.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/4.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/2.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/3.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/3.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- portfolio content -->
-</div><!-- portfolio section -->
-
-<div class="team-section section-padding">
+<!--<div class="team-section section-padding">
     <div class="container">
         <div class="section-title text-center">
             <h1>OUR Team</h1>
@@ -700,10 +653,12 @@
                     </div>
                 </div>
             </div>
-        </div><!-- row -->
-    </div><!-- container -->
-</div><!-- team section -->
+        </div>
+    </div>
+</div>-->
 
+<!-- team section -->
+<!--
 <div class="testimonial-section image-bg ">
     <div class="overlay"></div>
     <div class="container">
@@ -784,10 +739,12 @@
                 </div>
             </div>
         </div>
-    </div><!-- container -->
-</div><!-- testimonial section -->
+    </div>
+</div>
+-->
+<!-- testimonial section -->
 
-<div class="blog-section section-padding">
+<!--<div class="blog-section section-padding">
     <div class="container">
         <div class="section-title text-center">
             <h1>Blog & News</h1>
@@ -804,7 +761,7 @@
                         <div class="time">
                             <h2>09 <span>Nov</span></h2>
                         </div>
-                    </div> <!-- blog-image -->
+                    </div>
                 </div>
                 <div class="col-md-6 no-padding">
                     <div class="entry-post">
@@ -827,10 +784,11 @@
                                         class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div><!-- entry-post -->
+                    </div>
                 </div>
-            </div><!-- row -->
-        </div><!-- blog content -->
+            </div>
+        </div>
+
 
         <div class="blog-content blog-two">
             <div class="row">
@@ -855,7 +813,7 @@
                                         class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div><!-- entry-post -->
+                    </div>
                 </div>
                 <div class="col-md-6 no-padding">
                     <div class="blog-image">
@@ -866,43 +824,90 @@
                         <div class="time">
                             <h2>09 <span>Nov</span></h2>
                         </div>
-                    </div> <!-- blog-image -->
+                    </div>
                 </div>
-            </div><!-- row -->
-        </div><!-- blog content -->
-    </div><!-- container -->
-</div><!-- blog section -->
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!-- blog section -->
 
 <div class="clients-section image-bg">
     <div class="overlay"></div>
     <div id="brand-carousel" class="brand-item">
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/1.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/01.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/01.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/2.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/02.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/02.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/3.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/04.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/04.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/4.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/05.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/05.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/5.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/06.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/06.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/6.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/07.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/07c.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/1.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/01.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/01.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/2.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/02.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/02.jpg" alt="Brand image">
+            </a>
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/3.png" alt="Brand image">
+            <a class="image-link2" href="images/foto/04.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/04.jpg" alt="Brand image">
+            </a>
         </div>
+        <div class="brand-image">
+            <a class="image-link2" href="images/foto/05.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/05.jpg" alt="Brand image">
+            </a>
+        </div>
+        <div class="brand-image">
+            <a class="image-link2" href="images/foto/06.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/06.jpg" alt="Brand image">
+            </a>
+        </div>
+        <div class="brand-image">
+            <a class="image-link2" href="images/foto/07.jpg" alt="image">
+                <img class="img-responsive" src="images/foto/07c.jpg" alt="Brand image">
+            </a>
+        </div>
+        <!-- <div class="brand-image">
+              <img class="img-responsive" src="images/brand/6.png" alt="Brand image">
+          </div>
+     <!--  <div class="brand-image">
+              <img class="img-responsive" src="images/brand/1.png" alt="Brand image">
+          </div>
+          <div class="brand-image">
+              <img class="img-responsive" src="images/brand/2.png" alt="Brand image">
+          </div>
+          <div class="brand-image">
+              <img class="img-responsive" src="images/brand/3.png" alt="Brand image">
+          </div>-->
     </div>
 
     <div class="coll-to-action">
@@ -919,7 +924,8 @@
             </div>
         </div>
     </div>
-</div><!-- brands -->
+</div>
+    <!-- brands -->
 
 <?php include 'piede.php'; ?>
 <!-- script -->

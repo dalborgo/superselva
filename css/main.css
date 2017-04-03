@@ -35,6 +35,19 @@
 ===========================================================================*/
 
 /* ========================================================================
+ 	Custom
+ ========================================================================== */
+
+img.bordo{
+	border: 2px solid #283949;
+}
+.service-content a{
+    color: white;
+}
+.portfolio-info a{
+    color: white;
+}
+/* ========================================================================
  	Global
  ========================================================================== */
 
@@ -1476,7 +1489,7 @@ a:after, a:before, .btn.btn-primary i,
 	top: 50%;
 	left: 50%;
 	margin-top: -35px;
-	margin-left: -104px;
+	margin-left: -132px;                                            /*modificato*/
 }
 
 .portfolio-info h4 {
@@ -1989,7 +2002,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .brand-item  {
-	padding: 70px 50px;
+	padding: 50px 50px;                                         /*modificato*/
 }
 
 .brand-image{

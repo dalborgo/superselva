@@ -1,7 +1,7 @@
 /* lg */ 
 @media (min-width: 1400px) {
 	.brand-image {
-		margin:0 65px;
+		margin:0 15px;                   /*            modificato*/
 	}
 	.image-box {
 		margin-right:55px;
@@ -343,6 +343,10 @@
 		padding-top: 364px;
 		padding-bottom: 50px;
 	}
+	.service-section.section-padding {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
 	.top-bar {
 		padding-top:25px;
 		padding-bottom:25px;
@@ -480,7 +484,7 @@
 	}
 	.features-tabs .nav-tabs > li a {
 		font-size: 15px;
-		padding-left:110px;
+		padding-left:130px;                                     /*modificato*/
 		padding-right:25px;
 		width:100%;
 	}
