@@ -42,7 +42,7 @@
 </div><!-- breadcrumb section -->
 
 <div class="contact-form-section section-padding">
-    <div id="gmap"></div>
+    <div id="gmap" style=""></div>
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
@@ -112,7 +112,7 @@
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/inview.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD8UhNy7vlX1N39_kQOkLklyrYbB0N4kRQ&sensor=true"></script>
 <script src="js/gmaps.min.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript">
@@ -126,10 +126,10 @@
 
         map = new GMaps({
             el: '#gmap',
-            lat: 45.995447,
-            lng: -73.5697587,
+            lat: 45.6144126,
+            lng: 11.1373472,
             scrollwheel:false,
-            zoom: 10,
+            zoom: 15,
             zoomControl : false,
             panControl : true,
             streetViewControl : true,
@@ -140,8 +140,8 @@
 
         var image = '';
         map.addMarker({
-            lat: 45.995447,
-            lng: -73.5697587,
+            lat: 45.6144126,
+            lng: 11.1373472,
             icon: image,
             animation: google.maps.Animation.DROP,
             verticalAlign: 'bottom',
