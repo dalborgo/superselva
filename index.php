@@ -57,10 +57,12 @@
                 <div class="service crane-lifting image-bg">
                     <div class="overlay"></div>
                     <div class="image-box">
-                        <img class="img-responsive" src="images/service/1.png" alt="Image">
+                        <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-                        <h3>Crane Lifting</h3>
+
+                        <h3>FRANKFURT</h3>
+
                         <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
                     </div>
                 </div>
@@ -69,10 +71,12 @@
                 <div class="service home-plumbing image-bg">
                     <div class="overlay"></div>
                     <div class="image-box">
-                        <img class="img-responsive" src="images/service/2.png" alt="Image">
+                        <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-                        <h3>Home plumbing</h3>
+
+                        <h3>LEVIGACOSTE</h3>
+
                         <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
                     </div>
                 </div>
@@ -81,17 +85,21 @@
                 <div class="service house-plans image-bg">
                     <div class="overlay"></div>
                     <div class="image-box">
-                        <img class="img-responsive" src="images/service/3.png" alt="Image">
+                        <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-                        <h3>House Plans</h3>
+
+                        <h3>TANGENZIALI</h3>
+
                         <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row service-title">
-            <h4>We have completed lot of projects. You can hire us for your future project.</h4>
+
+            <h4>Dal 1963, SUPER SELVA tecnologia e commercio...</h4>
+
         </div>
     </div><!-- container -->
 </div><!-- services -->
@@ -123,10 +131,12 @@
                     <div class="col-sm-6">
                         <div class="service-info">
                             <!--                                    <h4>Residential Construction</h4>-->
-                            <p style="text-align: justify">Fin dall’inizio della sua attività, <b>nel 1963</b>, la <b>SUPER SELVA</b> ha sempre
+                            <p style="text-align: justify">Fin dall’inizio della sua attività, <b>nel 1963</b>, la <b>SUPER
+                                    SELVA</b> ha sempre
                                 cercato la crescita tecnologica e commerciale, dando un valido contributo allo sviluppo
                                 che si è caratterizzato in questi ultimi decenni nel settore dei marmi, pietre, graniti,
-                                agglomerati e gres. La continua ricerca e la lunga esperienza maturata, ha consentito a <b>SUPER SELVA</b>
+                                agglomerati e gres. La continua ricerca e la lunga esperienza maturata, ha consentito a
+                                <b>SUPER SELVA</b>
                                 di offrire prodotti di alta qualità e dalle caratteristiche tecniche ben differenti.<br><br>
 
                                 L’ampio ventaglio di prodotti, la capacità e la disponibilità di produrre diverse
@@ -362,7 +372,8 @@
         <div class="portfolio-slider">
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg" alt="image">
+                    <img class="img-responsive"
+                         src="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
@@ -370,8 +381,10 @@
                         <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg"><i class="fa fa-search"></i></a>
+                        <a href="product_details.php"><i class="fa fa-link"></i></a>
+                        <a class="image-link"
+                           href="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg"><i
+                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -386,8 +399,9 @@
                         <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_magnesite.jpg"><i class="fa fa-search"></i></a>
+                        <a href="product_details.php"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_magnesite.jpg"><i
+                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -418,8 +432,9 @@
                         <p>FRANKFURT LUCIDANTI</p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_lucidanti-5extra.jpg"><i class="fa fa-search"></i></a>
+                        <a href="product_details.php"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_lucidanti-5extra.jpg"><i
+                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -434,8 +449,9 @@
                         <p>FRANKFURT PULITORI</p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg"><i class="fa fa-search"></i></a>
+                        <a href="product_details.php"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg"><i
+                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -450,8 +466,9 @@
                         <p>FRANKFURT PULITORI</p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg"><i class="fa fa-search"></i></a>
+                        <a href="product_details.php"><i class="fa fa-link"></i></a>
+                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg"><i
+                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -476,7 +493,7 @@
 </div>
 <!-- portfolio section -->
 
-<div class="work-process image-bg" >
+<div class="work-process image-bg">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -511,7 +528,8 @@
                                 <div id="process" class="panel-collapse collapse in" role="tabpanel"
                                      aria-labelledby="initiation">
                                     <div class="panel-body">
-                                        <p>25 - 28 Giugno 2013<br><img class="img-responsive" src="images/eventi/expostone-2013.jpg"
+                                        <p>25 - 28 Giugno 2013<br><img class="img-responsive"
+                                                                       src="images/eventi/expostone-2013.jpg"
                                                                        style="max-width: 80%"></p>
                                     </div>
                                 </div>
@@ -592,7 +610,6 @@
         </div><!-- row -->
     </div><!-- container -->
 </div><!-- process -->
-
 
 
 <!--<div class="team-section section-padding">
@@ -914,18 +931,22 @@
         <div class="container">
             <div class="row">
                 <div class="brand-info">
-                    <h3>Creative & Unique Architecture Building Agency Template</h3>
-                    <p> Mistiri can be used for any type of construction website. complete package of mistiri. we hope
-                        that you will enjoy mistiri</p>
+
+                    <h3>Necessiti di un preventivo o di alcune informazioni?</h3>
+
+                    <p>Contattaci dal nostro form online.</p>
+
                 </div>
                 <div class="brand-button">
-                    <a href="#" class="btn btn-primary">Purchase Now <span><i class="fa fa-arrow-right"></i></span></a>
+
+                    <a href="#" class="btn btn-primary">Contattaci<span><i class="fa fa-arrow-right"></i></span></a>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
-    <!-- brands -->
+<!-- brands -->
 
 <?php include 'piede.php'; ?>
 <!-- script -->

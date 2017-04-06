@@ -58,7 +58,7 @@
                         <div class="service-image">
                             <a href="sotto_prodotti.php"><img class="img-responsive" src="images/prod/frankfurt2.jpg" alt="Image"></a>
                         </div>
-                        <h4><a href="sotto_prodotti.php">FRANKFURT</a></h4>
+                        <a href="sotto_prodotti.php"><h4>FRANKFURT</h4></a>
                     </div>
                 </div>
 

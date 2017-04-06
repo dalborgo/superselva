@@ -1473,11 +1473,13 @@ a:after, a:before, .btn.btn-primary i,
 	color: #fff;
 	font-size: 13px;
 	text-align: center;
-	position: absolute;
-	top: 50%;
+	position: relative;
+	top: 40%;
+	/*
 	left: 50%;
 	margin-top: -35px;
-	margin-left: -132px;                                            /*modificato*/
+	margin-left: -132px;
+	*/                                                  /*modificato*/
 }
 
 .portfolio-info h4 {
@@ -1505,6 +1507,9 @@ a:after, a:before, .btn.btn-primary i,
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+.portfolio-item .portfolio-icons a {
+	width: 250px;
 }
 
 .portfolio-icons a:hover {
@@ -3607,6 +3612,12 @@ img.bordo{
 }
 .service-content a{
 	color: white;
+}
+.service-content a:hover{
+	color: #F3CC29;
+}
+.portfolio-info a:hover{
+	color: #F3CC29;
 }
 .portfolio-info a{
 	color: white;

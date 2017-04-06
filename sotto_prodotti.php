@@ -53,7 +53,7 @@
     <div class="portfolio-content">
         <div class="text-center container">
             <ul class="portfoli-menu">
-                <li><a href="#" class="active" data-filter="*">&nbsp;&nbsp;Tutti&nbsp;&nbsp;</a></li>
+                <li><a href="#" class="active" data-filter="*">&nbsp;&nbsp;Tutti Tipi&nbsp;&nbsp;</a></li>
                 <li><a href="#" data-filter=".verona" class="">&nbsp;&nbsp;Verona&nbsp;&nbsp;</a></li>
                 <li><a href="#" data-filter=".germania" class="">&nbsp;&nbsp;Germania&nbsp;&nbsp;</a></li>
                 <li><a href="#" data-filter=".supply">&nbsp;&nbsp;Lucidanti&nbsp;&nbsp;</a></li>
@@ -70,13 +70,13 @@
                         <div class="portfolio-info">
                             <a href="product_details.php">
                                 <h4>SINTETICO VELOX</h4>
-                                <p>FRANKFURT VERONA</p>
                             </a>
                         </div>
 
                         <div class="portfolio-icons">
-                            <a href="product_details.php"><i class="fa fa-link"></i></a>
-                            <a href="images/prod_dett/frankfurt_velox.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT VERONA</a>
+                           <!-- <a href="product_details.php"><i class="fa fa-link"></i></a>
+                            <a href="images/prod_dett/frankfurt_velox.jpg"><i class="fa fa-search"></i></a>-->
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
@@ -88,11 +88,9 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h4>MAGNESITE</h4>
-                            <p>FRANKFURT VERONA</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="#"><i class="fa fa-link"></i></a>
-                            <a href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT VERONA</a>
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
@@ -103,11 +101,9 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h4>MAGNESITE PER GRANITO</h4>
-                            <p>FRANKFURT VERONA</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="#"><i class="fa fa-link"></i></a>
-                            <a href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT VERONA</a>
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
@@ -118,11 +114,9 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h4>RESINA SUPER-SINTETICO</h4>
-                            <p>FRANKFURT VERONA</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="#"><i class="fa fa-link"></i></a>
-                            <a href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT VERONA</a>
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
@@ -133,11 +127,9 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h4>MAGNESITE</h4>
-                            <p>FRANKFURT GERMANIA</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="#"><i class="fa fa-link"></i></a>
-                            <a href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT GERMANIA</a>
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
@@ -148,11 +140,9 @@
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
                             <h4>SINTETICO VELOX</h4>
-                            <p>FRANKFURT GERMANIA</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="#"><i class="fa fa-link"></i></a>
-                            <a href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="product_details.php">FRANKFURT GERMANIA</a>
                         </div>
                     </div>
                 </div> <!-- portfolio-item -->
