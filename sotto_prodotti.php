@@ -51,14 +51,17 @@
 
 <div class="portfolio-section">
     <div class="portfolio-content">
-        <div class="text-center container">
+        <div class="text-center container listaPers">
             <ul class="portfoli-menu">
-                <li><a href="#" class="active" data-filter="*">&nbsp;&nbsp;Tutti Tipi&nbsp;&nbsp;</a></li>
-                <li><a href="#" data-filter=".verona" class="">&nbsp;&nbsp;Verona&nbsp;&nbsp;</a></li>
-                <li><a href="#" data-filter=".germania" class="">&nbsp;&nbsp;Germania&nbsp;&nbsp;</a></li>
-                <li><a href="#" data-filter=".supply">&nbsp;&nbsp;Lucidanti&nbsp;&nbsp;</a></li>
-                <li><a href="#" data-filter=".shipment">&nbsp;&nbsp;Pulitori&nbsp;&nbsp;</a></li>
-                <li><a href="#" data-filter=".shipment">&nbsp;&nbsp;Feltri Lana&nbsp;&nbsp;</a></li>
+                <li><a href="#" class="active" data-filter="*">Tutti</a></li>
+                <li><a href="#" data-filter=".verona" class="">Verona</a></li>
+                <li><a href="#" data-filter=".germania" class="">Germania</a></li>
+                <li><a href="#" data-filter=".lucidanti">Lucidanti</a></li>
+                <li><a href="#" data-filter=".cogmma">Gomma Pioli</a></li>
+                <li><a href="#" data-filter=".metallici">Metallici Diamantati</a></li>
+                <li><a href="#" data-filter=".resinoidi">Resinoidi Diamantati</a></li>
+                <li><a href="#" data-filter=".pulitori">Pulitori</a></li>
+                <li><a href="#" data-filter=".spazzole">Spazzole per Anticato</a></li>
             </ul>
         </div>
         <div class="row portfolio-filter">

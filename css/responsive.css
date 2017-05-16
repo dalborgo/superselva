@@ -1,5 +1,10 @@
 /* lg */ 
 @media (min-width: 1400px) {
+	.listaPers{
+		display: grid;
+		width: 100%;
+	}
+
 	.brand-image {
 		margin:0 15px;                   /*            modificato*/
 	}
@@ -37,7 +42,11 @@
 }
 
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1399px) {
+	.listaPers{
+		display: grid;
+        width: auto;
+	}
 	.navbar-default .navbar-nav > li {
 		margin-left:7px;
 	}
@@ -154,11 +163,23 @@
 	}
 	
 	/* project page */
+    .portfoli-menu{
+        margin-bottom:30px;
+    }
+    .portfoli-menu li{
+        margin-top:25px;
+    }
+
+    .portfoli-menu li:first-child:after,
+    .portfoli-menu li:last-child:after  {
+        display:none;
+    }
+
 	.portfoli-menu a {
 		padding:20px 30px;
 	}
 	.portfolio-section .owl-nav {
-		right:100px;
+		right:50px;
 	}
 	/* project-details */
 	#product-carousel .carousel-indicators li, 
