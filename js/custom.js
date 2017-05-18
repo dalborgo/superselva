@@ -159,13 +159,9 @@ jQuery(function ($) {
 		var $container = $('.portfolio-filter');	  
 		$container.isotope({
 			itemSelector : '.portfolio',
-			layoutMode : 'masonry',
+
 			// disable resizing
-			resizable: false,
-			// set columnWidth to a percentage of container width
-			masonry: {
-			  columnWidth: $container.width() / 12
-			},
+			resizable: false
 		});
 	  
 		// update columnWidth on window resize

@@ -67,7 +67,7 @@
                         <div class="service-image">
                             <img class="img-responsive" src="images/prod/plato-platorelli.jpg" alt="Image">
                         </div>
-                        <h4>PLATO' - PLATORELLI</h4>
+                        <a href="sotto_prodotti_plato.php.php"><h4>PLATÒ - PLATORELLI</h4></a>
                     </div>
                 </div>
 

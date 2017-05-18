@@ -43,7 +43,7 @@
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1><span>FRANKFURT</span></h1>
+            <h1><span>PLATÒ - PLATORELLI</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p>
         </div>
     </div><!-- breadcrumb content -->
@@ -54,39 +54,17 @@
         <div class="text-center container listaPers">
             <ul class="portfoli-menu">
                 <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".verona" class="">Verona</a></li>
-                <li><a href="#" data-filter=".germania" class="">Germania</a></li>
-                <li><a href="#" data-filter=".lucidanti">Lucidanti</a></li>
-                <li><a href="#" data-filter=".gomma">Gomma Pioli</a></li>
-                <li><a href="#" data-filter=".metallici">Metallici Diamantati</a></li>
-                <li><a href="#" data-filter=".resinoidi">Resinoidi Diamantati</a></li>
-                <li><a href="#" data-filter=".pulitori">Pulitori</a></li>
-                <li><a href="#" data-filter=".spazzole">Spazzole per Anticato</a></li>
-                <li><a href="#" data-filter=".spugne">Spugne per Levigato</a></li>
+                <li><a href="#" data-filter=".plato250" class="">Platò 250MM</a></li>
+                <li><a href="#" data-filter=".plato150" class="">Platorelli 150MM</a></li>
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('VERONA', 'VERONA','verona','84') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','85') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','87') ?>
-            <?= getSotto('GERMANIA', 'GERMANIA','germania','24') ?>
-            <?= getSotto('GOMMA PIOLI', 'GOMMA PIOLI','gomma','11') ?>
-            <?= getSotto('5/EXTRA', 'LUCIDANTI','lucidanti','61') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','40') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','41') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','42') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','43') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','23') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','27') ?>
-            <?= getSotto('PULITORI', 'PULITORI','pulitori','10') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','25') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','63') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','82') ?>
-            <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','13') ?>
-            <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','15') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','07') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','36') ?>
-
+            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','57') ?>
+            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','60') ?>
+            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','71') ?>
+            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','79') ?>
+            <?= getSotto('PLATORELLI', 'PLATORELLI 150MM','plato150','19') ?>
+            <?= getSotto('PLATORELLI', 'PLATORELLI 150MM','plato150','50') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

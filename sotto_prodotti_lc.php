@@ -43,7 +43,7 @@
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1><span>FRANKFURT</span></h1>
+            <h1><span>LEVIGACOSTE</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p>
         </div>
     </div><!-- breadcrumb content -->
@@ -54,39 +54,40 @@
         <div class="text-center container listaPers">
             <ul class="portfoli-menu">
                 <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".verona" class="">Verona</a></li>
-                <li><a href="#" data-filter=".germania" class="">Germania</a></li>
-                <li><a href="#" data-filter=".lucidanti">Lucidanti</a></li>
-                <li><a href="#" data-filter=".gomma">Gomma Pioli</a></li>
-                <li><a href="#" data-filter=".metallici">Metallici Diamantati</a></li>
-                <li><a href="#" data-filter=".resinoidi">Resinoidi Diamantati</a></li>
-                <li><a href="#" data-filter=".pulitori">Pulitori</a></li>
-                <li><a href="#" data-filter=".spazzole">Spazzole per Anticato</a></li>
-                <li><a href="#" data-filter=".spugne">Spugne per Levigato</a></li>
+                <li><a href="#" data-filter=".lc-smusso" class="">Per Smusso</a></li>
+                <li><a href="#" data-filter=".lc-frontale" class="">Per Frontale</a></li>
+                <li><a href="#" data-filter=".lc-toro" class="">Per Toro</a></li>
+                <li><a href="#" data-filter=".lc-metallici" class="">Metallici Diamantati</a></li>
+                <li><a href="#" data-filter=".lc-resinoidi" class="">Resinoidi Diamantati</a></li>
+                <li><a href="#" data-filter=".lc-spazzole" class="">Spazzole per Anticato</a></li>
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('VERONA', 'VERONA','verona','84') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','85') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','87') ?>
-            <?= getSotto('GERMANIA', 'GERMANIA','germania','24') ?>
-            <?= getSotto('GOMMA PIOLI', 'GOMMA PIOLI','gomma','11') ?>
-            <?= getSotto('5/EXTRA', 'LUCIDANTI','lucidanti','61') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','40') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','41') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','42') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','43') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','23') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','27') ?>
-            <?= getSotto('PULITORI', 'PULITORI','pulitori','10') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','25') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','63') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','82') ?>
-            <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','13') ?>
-            <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','15') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','07') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','36') ?>
-
+            <?= getSotto('SMUSSO 100MM - 130MM', 'PER SMUSSO','lc-smusso','47') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','20') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','21') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','46') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','49') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','70') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','75') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','76') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','77') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','53') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','54') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','66') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','67') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','73') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','78') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','83') ?>
+            <?= getSotto('METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','lc-metallici','45') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','52') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','55') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','59') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI SMUSSO', 'RESINOIDI DIAMANTATI','lc-resinoidi','68') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','69') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','72') ?>
+            <?= getSotto('TERZAGO RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','lc-resinoidi','74') ?>
+            <?= getSotto('SPAZZOLE PER ANTICATO', 'SPAZZOLE PER ANTICATO','lc-spazzole','16') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->
