@@ -65,18 +65,88 @@
                 <div class="col-sm-4 no-padding">
                     <div class="item item-middle">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod/plato-platorelli.jpg" alt="Image">
+                            <a href="sotto_prodotti_lc.php"><img class="img-responsive" src="images/prod/levigacoste_p2.jpg" alt="Image"></a>
                         </div>
-                        <a href="sotto_prodotti_plato.php.php"><h4>PLATÒ - PLATORELLI</h4></a>
+                        <a href="sotto_prodotti_lc.php"><h4>LEVIGACOSTE</h4></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 no-padding">
                     <div class="item item-right">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod/munchen.jpg" alt="Image">
+                            <a href="sotto_prodotti_tan.php"><img class="img-responsive" src="images/prod/tangenziali_p.jpg" alt="Image" ></a>
                         </div>
-                        <h4>MÜNCHEN</h4>
+                       <a href="sotto_prodotti_tan.php"><h4>TANGENZIALI</h4></a>
+                    </div>
+                </div>
+            </div><!-- row -->
+        </div><!-- service-content -->
+    </div><!-- container -->
+</div>
+
+<div class="services-section section-padding"  style="padding-top:0px;">
+    <div class="container text-center">
+        <div class="service-content">
+            <div class="row">
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-left">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_cas.php"><img class="img-responsive" src="images/prod/cassani.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_cas.php"><h4>CASSANI</h4></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-middle">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_plato.php"><img class="img-responsive" src="images/prod/plato-platorelli.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_plato.php"><h4>PLATÒ - PLATORELLI</h4></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-right">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_mun.php"><img class="img-responsive" src="images/prod/munchen.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_mun.php"><h4>MÜNCHEN</h4></a>
+                    </div>
+                </div>
+            </div><!-- row -->
+        </div><!-- service-content -->
+    </div><!-- container -->
+</div>
+
+<div class="services-section section-padding"  style="padding-top:0px;">
+    <div class="container text-center">
+        <div class="service-content">
+            <div class="row">
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-left">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_vir.php"><img class="img-responsive" src="images/prod/virgolette_genovesi.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_vir.php"><h4>VIRGOLE GENOVESI</h4></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-middle">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_rulli.php"><img class="img-responsive" src="images/prod/rulli.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_rulli.php"><h4>RULLI</h4></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 no-padding">
+                    <div class="item item-right">
+                        <div class="service-image">
+                            <a href="sotto_prodotti_utens.php"><img class="img-responsive" src="images/prod/utensili-diamantati.jpg" alt="Image"></a>
+                        </div>
+                        <a href="sotto_prodotti_utens.php"><h4>UTENSILI DIAMANTATI</h4></a>
                     </div>
                 </div>
             </div><!-- row -->
@@ -91,27 +161,27 @@
                 <div class="col-sm-4 no-padding">
                     <div class="item item-left">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod/cere.jpg" alt="Image">
+                            <a href="sotto_prodotti_cer.php"><img class="img-responsive" src="images/prod/cere.jpg" alt="Image"></a>
                         </div>
-                        <h4>Cere</h4>
+                        <a href="sotto_prodotti_cer.php"><h4>CERE</h4></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 no-padding">
                     <div class="item item-middle">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod/protettivi.jpg" alt="Image">
+                            <a href="sotto_prodotti_prot.php"><img class="img-responsive" src="images/prod/protettivi.jpg" alt="Image"></a>
                         </div>
-                        <h4>PROTETTIVI</h4>
+                        <a href="sotto_prodotti_prot.php"><h4>PROTETTIVI</h4></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 no-padding">
                     <div class="item item-right">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod/spazzole.jpg" alt="Image">
+                            <a href="sotto_prodotti_spaz.php"><img class="img-responsive" src="images/prod/spazzole.jpg" alt="Image"></a>
                         </div>
-                        <h4>SPAZZOLE PER ANTICATO</h4>
+                        <a href="sotto_prodotti_spaz.php"><h4>SPAZZOLE PER ANTICATO</h4></a>
                     </div>
                 </div>
             </div><!-- row -->

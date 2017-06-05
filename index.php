@@ -271,7 +271,7 @@
                         <li role="presentation" class="features-before">
                             <a class="feature-tab" href="#lifetime" data-toggle="tab">
 										<span class="features-image features">
-											<img class="img-responsive" src="images/prod/tangenziali_p.jpg" alt="Image">
+											<img class="img-responsive" src="images/prod/tangenziali.jpg" alt="Image">
 										</span>
                                 3. TANGENZIALI
                             </a>
@@ -373,7 +373,7 @@
             <div class="portfolio">
                 <div class="portfolio-item">
                     <img class="img-responsive"
-                         src="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg" alt="image">
+                         src="images/prod_dett/metallici/40.png" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
@@ -383,7 +383,7 @@
                     <div class="portfolio-icons">
                         <a href="product_details.php"><i class="fa fa-link"></i></a>
                         <a class="image-link"
-                           href="images/prod_dett/frankfurt-diamantati-utensili-metallici-diamantati.jpg"><i
+                           href=" src="images/prod_dett/metallici/40.png" alt="image">"><i
                                     class="fa fa-search"></i></a>
                     </div>
                 </div>
@@ -391,16 +391,16 @@
 
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/frankfurt_magnesite.jpg" alt="image">
+                    <img class="img-responsive" src="images/prod_dett/metallici/41.png" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>MAGNESITE</h4>
+                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
                         <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
                         <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_magnesite.jpg"><i
+                        <a class="image-link" href="images/prod_dett/metallici/42.png"><i
                                     class="fa fa-search"></i></a>
                     </div>
                 </div>
@@ -424,12 +424,12 @@
 
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/frankfurt_lucidanti-5extra.jpg" alt="image">
+                    <img class="img-responsive" src="images/prod_dett/metallici/43.png" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>5 / EXTRA</h4>
-                        <p>FRANKFURT LUCIDANTI</p>
+                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
+                        <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
                         <a href="product_details.php"><i class="fa fa-link"></i></a>
@@ -441,12 +441,12 @@
 
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg" alt="image">
+                    <img class="img-responsive" src="images/prod_dett/resinoidi/23.png" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>PER MARMO BLU</h4>
-                        <p>FRANKFURT PULITORI</p>
+                        <h4>UTENSILI RESINOIDI DIAMANTATI</h4>
+                        <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
                         <a href="product_details.php"><i class="fa fa-link"></i></a>
@@ -458,12 +458,12 @@
 
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg" alt="image">
+                    <img class="img-responsive" src="images/prod_dett/resinoidi/27.png" alt="image">
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>PER MARMO BIANCO</h4>
-                        <p>FRANKFURT PULITORI</p>
+                        <h4>UTENSILI RESINOIDI DIAMANTATI</h4>
+                        <p>FRANKFURT DIAMANTATI</p>
                     </div>
                     <div class="portfolio-icons">
                         <a href="product_details.php"><i class="fa fa-link"></i></a>
@@ -553,7 +553,7 @@
                                 <div id="process-one" class="panel-collapse collapse" role="tabpanel"
                                      aria-labelledby="selection">
                                     <div class="panel-body">
-                                        <p>25 - 28 Settembre 2013<br><br></p>
+                                        <p>27 - 30 Settembre 2017<br><br></p>
                                     </div>
                                 </div>
                             </div><!-- panel-default -->
