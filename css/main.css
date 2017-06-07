@@ -3627,7 +3627,18 @@ img.bordo{
 .portfolio-info a{
 	color: white;
 }
+a.torna span.tornasc:hover{
+	transition: all 0.4s ease-in-out 0s;
+	color:#F3CC29;
+}
+span.freccia {
+	 background-color: #F3CC29;
+	 color: #0B0B0B;
+	 padding: 8px;
+ }
 
-/* ==========================================================================
-								THE END OF CSS
- ========================================================================== */
+span.tornasc {
+	background-color: #0b0b0b;
+	padding: 10px;
+	color: #fff;
+}

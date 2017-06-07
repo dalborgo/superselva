@@ -1,3 +1,7 @@
+<?php
+ $ord=$_GET["ord"];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

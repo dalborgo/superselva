@@ -44,8 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>FRANKFURT</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
-            <br><mark><img src="images/arrow.png" alt="freccia" style="margin-right: 0.2ex">PRODOTTI</mark>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
 
         </div>
     </div><!-- breadcrumb content -->
@@ -68,16 +71,16 @@
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('VERONA', 'VERONA','verona','84') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','85') ?>
-            <?= getSotto('VERONA', 'VERONA','verona','87') ?>
+            <?= getSotto('SINTETICO VELOX', 'VERONA','verona','84',1) ?>
+            <?= getSotto('RESINA SUPER-SINTETICO', 'VERONA','verona','85',2) ?>
+            <?= getSotto('MAGNESITE PER GRANITO', 'VERONA','verona','87',3) ?>
             <?= getSotto('GERMANIA', 'GERMANIA','germania','24') ?>
             <?= getSotto('GOMMA PIOLI', 'GOMMA PIOLI','gomma','11') ?>
             <?= getSotto('5/EXTRA', 'LUCIDANTI','lucidanti','61') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','40') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','41') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','42') ?>
-            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','43') ?>
+            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','40',1) ?>
+            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','41',2) ?>
+            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','42',3) ?>
+            <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','43',4) ?>
             <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','23') ?>
             <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','27') ?>
             <?= getSotto('PULITORI', 'PULITORI','pulitori','10') ?>
