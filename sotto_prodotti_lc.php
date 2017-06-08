@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>LEVIGACOSTE</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -64,29 +68,29 @@
         </div>
         <div class="row portfolio-filter">
             <?= getSotto('SMUSSO 100MM - 130MM', 'PER SMUSSO','lc-smusso','47') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','20') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','21') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','46') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','49') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','70') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','75') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','76') ?>
-            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','77') ?>
-            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','53') ?>
-            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','54') ?>
-            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','66') ?>
-            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','67') ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','20',1) ?>
+            <?= getSotto('FRONTALE 150MM TIPO FIORE', 'PER FRONTALE','lc-frontale','21',2) ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','46',3) ?>
+            <?= getSotto('FRONTALE 150MM TIPO FIORE', 'PER FRONTALE','lc-frontale','49',4) ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','70',3) ?>
+            <?= getSotto('FRONTALE 150MM', 'PER FRONTALE','lc-frontale','75',4) ?>
+            <?= getSotto('FRONTALE 150MM TIPO PIENO', 'PER FRONTALE','lc-frontale','76',1) ?>
+            <?= getSotto('FRONTALE 150MM', 'PER FRONTALE','lc-frontale','77',1) ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','53',2) ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','54',1) ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','66',2) ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','67',3) ?>
             <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','73') ?>
-            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','78') ?>
+            <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','78',3) ?>
             <?= getSotto('TORO 100MM', 'PER TORO','lc-toro','83') ?>
             <?= getSotto('METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','lc-metallici','45') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','52') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','55') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI FIORI', 'RESINOIDI DIAMANTATI','lc-resinoidi','59') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI SMUSSO', 'RESINOIDI DIAMANTATI','lc-resinoidi','68') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','69') ?>
-            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','72') ?>
-            <?= getSotto('TERZAGO RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','lc-resinoidi','74') ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORE', 'RESINOIDI DIAMANTATI','lc-resinoidi','52',1) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORE', 'RESINOIDI DIAMANTATI','lc-resinoidi','55',1) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI FIORE', 'RESINOIDI DIAMANTATI','lc-resinoidi','59',1) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI SMUSSO', 'RESINOIDI DIAMANTATI','lc-resinoidi','68',2) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','69',3) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','72',3) ?>
+            <?= getSotto('RESINOIDI DIAMANTATI TORO', 'RESINOIDI DIAMANTATI','lc-resinoidi','74',4) ?>
             <?= getSotto('SPAZZOLE PER ANTICATO', 'SPAZZOLE PER ANTICATO','lc-spazzole','16') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->

@@ -63,11 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>FRANKFURT<span> GOMMA PIOLI</span></h1>
+            <h1>LEVIGACOSTE<span> SPAZZOLE</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti.php" class="torna"><span
+            <a href="sotto_prodotti_lc.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Frankfurt
+                Categorie Levigacoste
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -79,16 +79,15 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-       <!-- <div class="service-tabs text-center">
+  <!--      <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">GOMMA PIOLI</a></li>
-
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">SPAZZOLE PER ANTICATO</a>
+                </li>
             </ul>
         </div>-->
 
         <div class="tab-content service-content">
-        <?= elab(11, 'GOMMA', 'gomma', 'uno', $uno) ?>
-
+        <?= elab2(16, 'SPAZZOLE PER ANTICATO', 'lc-spazzole', 'uno', $uno,'spazzole prodotte in vari diametri e granulometrie per ottenere l’effetto ANTICATO su marmi e pietre naturali. Queste spazzole sono prodotte con <strong>abrasivo al carburo di silicio</strong> ma possono essere prodotte anche con <strong>filo diamantato</strong>. ','a richiesta','',array(36,46,60,80,100,120,180,320,500),array('altre grane:','a richiesta'),'GRANE','') ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

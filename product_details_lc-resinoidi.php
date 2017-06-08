@@ -63,11 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>FRANKFURT<span> GOMMA PIOLI</span></h1>
+            <h1>LEVIGACOSTE<span> RESINOIDI DIAMANTATI</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti.php" class="torna"><span
+            <a href="sotto_prodotti_lc.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Frankfurt
+                Categorie Levigacoste
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -79,15 +79,24 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-       <!-- <div class="service-tabs text-center">
+     <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">GOMMA PIOLI</a></li>
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">RESINOIDI DIAMANTATI FIORE</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">RESINOIDI DIAMANTATI SMUSSO</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">RESINOIDI DIAMANTATI TORO</a></li>
+                <li role="presentation" class="<?= $quattro ?>"><a href="#quattro" data-toggle="tab">TERZAGO RESINOIDI DIAMANTATI</a></li>
 
             </ul>
-        </div>-->
+        </div>
 
         <div class="tab-content service-content">
-        <?= elab(11, 'GOMMA', 'gomma', 'uno', $uno) ?>
+        <?= elabD1(52, 'RESINOIDI DIAMANTATI FIORE', 'lc-resinoidi', 'uno', $uno,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),array(''),array(''),'GRANE','') ?>
+        <?= elabD2(55, 'RESINOIDI DIAMANTATI FIORE', 'lc-resinoidi', 'uno', $uno,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),array(''),array(''),'GRANE','') ?>
+        <?= elabD2(59, 'RESINOIDI DIAMANTATI FIORE', 'lc-resinoidi', 'uno', $uno,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),array(''),array(''),'GRANE','').'</div>' ?>
+        <?= elab2(68, 'RESINOIDI DIAMANTATI SMUSSO', 'lc-resinoidi', 'due', $due,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),'GRANE','') ?>
+        <?= elabD1(69, 'RESINOIDI DIAMANTATI TORO', 'lc-resinoidi', 'tre', $tre,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),array(''),array(''),'GRANE','') ?>
+        <?= elabD2(72, 'RESINOIDI DIAMANTATI TORO', 'lc-resinoidi', 'tre', $tre,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),array(''),array(''),'GRANE','').'</div>' ?>
+        <?= elab2(68, 'TERZAGO RESINOIDI DIAMANTATI', 'lc-resinoidi', 'quattro', $quattro,'','a richiesta','',array(16,24,36,46,60,80,120),array(''),'GRANE','') ?>
 
         </div>
     </div><!-- container -->

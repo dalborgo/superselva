@@ -63,11 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>FRANKFURT<span> GOMMA PIOLI</span></h1>
+            <h1>LEVIGACOSTE<span> PER FRONTALE</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti.php" class="torna"><span
+            <a href="sotto_prodotti_lc.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Frankfurt
+                Categorie Levigacoste
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -79,15 +79,28 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-       <!-- <div class="service-tabs text-center">
+     <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">GOMMA PIOLI</a></li>
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">FRONTALE 150MM TIPO PIENO (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">FRONTALE 130MM TIPO FIORE (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">FRONTALE 130MM TIPO FIORE (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?= $quattro ?>"><a href="#quattro" data-toggle="tab">FRONTALE 140MM TIPO FIORE (attacco chiocciola)</a></li>
 
             </ul>
-        </div>-->
+        </div>
 
         <div class="tab-content service-content">
-        <?= elab(11, 'GOMMA', 'gomma', 'uno', $uno) ?>
+        <?= elabD1(20, 'FRONTALE 150MM TIPO PIENO<br>(attacco chiocciola)', 'lc-frontale', 'uno', $uno,'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.') ?>
+        <?= elabD2(76, 'FRONTALE 150MM TIPO PIENO<br>(attacco chiocciola)', 'lc-frontale', 'uno', $uno,'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.') ?>
+        <?= elabD2(77, 'FRONTALE 150MM TIPO PIENO<br>(attacco chiocciola)', 'lc-frontale', 'uno', $uno,'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.').'</div>'
+
+        ?>
+        <?= elab4(21, 'FRONTALE 130MM TIPO FIORE<br>(attacco chiocciola)', 'lc-frontale', 'due', $due, 'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.','15','')?>
+
+        <?= elabD1(46, 'FRONTALE 130MM TIPO PIENO<br>(attacco chiocciola)', 'lc-frontale', 'tre', $tre, 'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.','15','') ?>
+        <?= elabD2(70, 'FRONTALE 130MM TIPO PIENO<br>(attacco chiocciola)', 'lc-frontale', 'tre', $tre, 'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.','15','').'</div>' ?>
+        <?= elabD1(49, 'FRONTALE 140MM TIPO FIORE<br>(attacco chiocciola)', 'lc-frontale', 'quattro', $quattro, 'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.','15','') ?>
+        <?= elabD2(75, 'FRONTALE 130MM TIPO FIORE<br>(attacco chiocciola)', 'lc-frontale', 'due', $due, 'Serie completa disponibile nelle tipologie sintetica VELOX, per le grane grosse e tipo RESINA per le grane fini. Utilizzato su marmi, graniti e pietre.','15','').'</div>'?>
 
         </div>
     </div><!-- container -->

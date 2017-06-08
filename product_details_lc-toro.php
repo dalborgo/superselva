@@ -63,11 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>FRANKFURT<span> GOMMA PIOLI</span></h1>
+            <h1>LEVIGACOSTE<span> TORO</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti.php" class="torna"><span
+            <a href="sotto_prodotti_lc.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Frankfurt
+                Categorie Levigacoste
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -79,16 +79,21 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-       <!-- <div class="service-tabs text-center">
+     <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">GOMMA PIOLI</a></li>
-
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">TORO 100MM (foro piccolo - attacco chiocciola)</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">TORO 130MM (foro piccolo - attacco chiocciola)</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">TORO 150MM (foro piccolo - attacco chiocciola)</a></li>
             </ul>
-        </div>-->
+        </div>
 
         <div class="tab-content service-content">
-        <?= elab(11, 'GOMMA', 'gomma', 'uno', $uno) ?>
-
+        <?= elabD1(54, 'TORO 100MM<br>(foro piccolo - attacco chiocciola)', 'lc-toro', 'uno', $uno,'Serie completa disponibile nella tipologia resina sintetica per tutte le grane. Utilizzato su marmi, graniti e pietre. ','27','',array(60,80,120,220,320,400,600,800,1000),array(''),array('<span style="color:#fff">Lucidanti per marmo:</span>','5/Extra pressati'),array('<span style="color:#fff">Lucidanti per granito:</span>','Superlux')).'</div>' ?>
+            <?= elabD1(66, 'TORO 130MM<br>(foro piccolo - attacco chiocciola)', 'lc-toro', 'due', $due,'Serie completa disponibile nella tipologia resina sintetica per tutte le grane. Utilizzato su marmi, graniti e pietre. ','15','',array(60,80,120,220,320,400,600,800,1000),array(''),array('<span style="color:#fff">Lucidanti per marmo:</span>','5/Extra pressati'),array('<span style="color:#fff">Lucidanti per granito:</span>','Superlux')) ?>
+            <?= elabD2(53, 'TORO 130MM<br>(foro piccolo - attacco chiocciola)', 'lc-toro', 'due', $due,'Serie completa disponibile nella tipologia resina sintetica per tutte le grane. Utilizzato su marmi, graniti e pietre. ','15','',array(60,80,120,220,320,400,600,800,1000),array(''),array('<span style="color:#fff">Lucidanti per marmo:</span>','5/Extra pressati'),array('<span style="color:#fff">Lucidanti per granito:</span>','Superlux')).'</div>' ?>
+            <?= elabD1(67, 'TORO 150MM<br>(foro piccolo - attacco chiocciola)', 'lc-toro', 'tre', $tre,'Serie completa disponibile nella tipologia resina sintetica per tutte le grane. Utilizzato su marmi, graniti e pietre. ','12','',array(60,80,120,220,320,400,600,800,1000),array(''),array('<span style="color:#fff">Lucidanti per marmo:</span>','5/Extra pressati'),array('<span style="color:#fff">Lucidanti per granito:</span>','Superlux')) ?>
+            <?= elabD2(78, 'TORO 150MM<br>(foro piccolo - attacco chiocciola)', 'lc-toro', 'tre', $tre,'Serie completa disponibile nella tipologia resina sintetica per tutte le grane. Utilizzato su marmi, graniti e pietre. ','12','',array(60,80,120,220,320,400,600,800,1000),array(''),array('<span style="color:#fff">Lucidanti per marmo:</span>','5/Extra pressati'),array('<span style="color:#fff">Lucidanti per granito:</span>','Superlux')).'</div>' ?>
+            ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

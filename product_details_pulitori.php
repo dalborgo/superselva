@@ -63,7 +63,7 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>FRANKFURT<span> GOMMA PIOLI</span></h1>
+            <h1>FRANKFURT<span> PULITORI</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
             <a href="sotto_prodotti.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
@@ -79,16 +79,20 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-       <!-- <div class="service-tabs text-center">
+        <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">GOMMA PIOLI</a></li>
-
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">PER MARMO</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">PER MARMO</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">PER MARMO</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#quattro" data-toggle="tab">PER MARMO</a></li>
             </ul>
-        </div>-->
+        </div>
 
         <div class="tab-content service-content">
-        <?= elab(11, 'GOMMA', 'gomma', 'uno', $uno) ?>
-
+        <?= elab(10, 'BIANCO FORMA PIENO', 'pulitori', 'uno', $uno,"Usato dopo la lucidatura dei marmi, pulisce perfettamente la superficie di lastre e marmette. Disponibile in varie durezze. ",36, array('<abbr title="Forma Verona">BIANCO</abbr>'),'Tipo') ?>
+        <?= elab(25, 'BIANCO FORMA PIENO', 'pulitori', 'due', $due,"Usato dopo la lucidatura dei marmi, pulisce perfettamente la superficie di lastre e marmette. Disponibile in varie durezze. ",36, array('<abbr title="Forma Verona">BIANCO</abbr>'),'Tipo') ?>
+        <?= elab(63, 'BIANCO FORMA PIENO', 'pulitori', 'tre', $tre,"Usato dopo la lucidatura dei marmi, pulisce perfettamente la superficie di lastre e marmette. Disponibile in varie durezze. ",36, array('<abbr title="Forma Pieno">BIANCO</abbr>'),'Tipo') ?>
+        <?= elab(82, 'BLU FORMA VERONA', 'pulitori', 'quattro', $quattro,"Usato dopo la lucidatura dei marmi, pulisce perfettamente la superficie di lastre e marmette. Disponibile in varie durezze. ",36, array('<abbr title="Forma Verona">5000BLU</abbr>','<abbr title="Forma Verona">BLU</abbr>'),'Tipo') ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

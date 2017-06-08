@@ -83,14 +83,14 @@
             <?= getSotto('UTENSILI METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','metallici','43',4) ?>
             <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','23') ?>
             <?= getSotto('RESINOIDI DIAMANTATI', 'RESINOIDI DIAMANTATI','resinoidi','27') ?>
-            <?= getSotto('PULITORI', 'PULITORI','pulitori','10') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','25') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','63') ?>
-            <?= getSotto('PULTIORI', 'PULITORI','pulitori','82') ?>
+            <?= getSotto('PULITORI', 'BIANCO FORMA PIENO','pulitori','10') ?>
+            <?= getSotto('PULTIORI', 'BIANCO FORMA PIENO','pulitori','25') ?>
+            <?= getSotto('PULTIORI', 'BIANCO FORMA PIENO','pulitori','63') ?>
+            <?= getSotto('PULTIORI', 'BLU FORMA VERONA','pulitori','82') ?>
             <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','13') ?>
-            <?= getSotto('SPAZZOLE', 'SPAZZOLE PER ANTICATO','spazzole','15') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','07') ?>
-            <?= getSotto('SPUGNE', 'SPUGNE PER LEVIGATO','spugne','36') ?>
+            <?= getSotto('ACCIAIO TREFOLI', 'SPAZZOLE PER ANTICATO','spazzole','15') ?>
+            <?= getSotto('SPUGNETTE (MAT)', 'SPUGNE PER LEVIGATO','spugne','07') ?>
+            <?= getSotto('SATINATORI (MAT)', 'SPUGNE PER LEVIGATO','spugne','36') ?>
 
         </div> <!-- row -->
     </div> <!-- portfolio content -->
