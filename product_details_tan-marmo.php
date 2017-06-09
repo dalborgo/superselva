@@ -1,3 +1,22 @@
+<?php
+$uno='';$due='';$tre='';$quattro='';
+if(isset($_GET["ord"])){
+    $ord=$_GET["ord"];
+}else{
+    $ord=1;
+}
+if ($ord == 1)
+    $uno='active';
+elseif ($ord == 2)
+    $due='active';
+elseif ($ord == 3)
+    $tre='active';
+else
+    $quattro = 'active';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,46 +57,40 @@
 <body>
 
 <?php include_once "header.php" ?>
-<?php include_once "php_sotto.php" ?>
+<?php include_once "elab_dett.php" ?>
+
 <div class="breadcrumb-section image-bg">
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1><span>TANGENZIALI</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <h1>TANGENZIALI<span> PER MARMO</span></h1>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="sotto_prodotti_tan.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Tangenziali
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
 
-<div class="portfolio-section" style="margin-bottom:80px">
-    <div class="portfolio-content">
-        <div class="text-center container listaPers">
-            <ul class="portfoli-menu">
-                <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".tan-metallici" class="">Metallici Diamantati</a></li>
-                <li><a href="#" data-filter=".tan-resinoidi" class="">Resinoidi Diamantati</a></li>
-                <li><a href="#" data-filter=".tan-marmo" class="">Per Marmo</a></li>
-                <li><a href="#" data-filter=".tan-granito" class="">Per Granito</a></li>
-                <li><a href="#" data-filter=".tan-spazzole" class="">Spazzole</a></li>
+<div class="service-section section-padding">
+    <div class="container">
+        <!--<div class="section-title text-center">
+            <h1>Our Services</h1>
+            <h2>We Offer Our Clients</h2>
+        </div>-->
+     <!-- <div class="service-tabs text-center">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">LEVIGACOSTE PER SMUSSO</a></li>
 
             </ul>
+        </div>-->
+
+        <div class="tab-content service-content">
+        <?= elab2(65, 'LUCIDANTI "5 EXTRA" PER MARMO', 'tan-marmo', 'uno', $uno,'La nostra produzione ci permette di variare la durezza, senza alterare l’effetto lucidante, risolvendo le più ampie esigenze di lucidatura. ','24','',array('<span style="color:#F3CC29">N</span>','<span style="color:#F3CC29">Tipo</span>'),array('5 extra','normale'),'<span style="color:#F3CC29">TIPI</span>','') ?>
         </div>
-        <div class="row portfolio-filter">
-            <?= getSotto('METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','tan-metallici','17') ?>
-            <?= getSotto('METALLICI DIAMANTATI', 'METALLICI DIAMANTATI','tan-metallici','01') ?>
-            <?= getSotto('140MM E 170MM', 'RESINOIDI DIAMANTATI','tan-resinoidi','51') ?>
-            <?= getSotto('140MM E 170MM', 'RESINOIDI DIAMANTATI','tan-resinoidi','39') ?>
-            <?= getSotto('140MM E 170MM', 'RESINOIDI DIAMANTATI','tan-resinoidi','37') ?>
-            <?= getSotto('140MM E 170MM', 'RESINOIDI DIAMANTATI','tan-resinoidi','28') ?>
-            <?= getSotto('LUCIDANTI "5 EXTRA" PER MARMO', 'PER MARMO','tan-marmo','65') ?>
-            <?= getSotto('SINTETICO PER GRANITO 140MM e 170MM', 'PER GRANITO','tan-granito','64',1) ?>
-            <?= getSotto('MAGNESITE PER GRANITO 140MM e 170MM', 'PER GRANITO','tan-granito','38',2) ?>
-            <?= getSotto('MAGNESITE PER GRANITO 140MM e 170MM', 'PER GRANITO','tan-granito','09',2) ?>
-            <?= getSotto('LUCIDANTI "SUPERLUX" PER GRANITO', 'PER GRANITO','tan-granito','08',3) ?>
-            <?= getSotto('SPAZZOLE', 'PER GRANITO','tan-spazzole','14') ?>
-        </div> <!-- row -->
-    </div> <!-- portfolio content -->
-</div> <!-- portfolio section -->
+    </div><!-- container -->
+</div><!-- service section -->
 
 <?php include 'piede.php'; ?>
 <!-- script -->

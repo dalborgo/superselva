@@ -50,11 +50,17 @@ function elab2($img, $nome, $fol, $id, $act = '', $desc = '', $pz = '15 - diamet
     $dis2 = ($pz2 != '') ? '' : 'display:none';
     $grane = '';
     $grane2 = '';
+    $lung=3;
+    if (count($arr)>4)
+        $lung=2;
     foreach ($arr as $item) {
-        $grane .= '<div class="col-xs-3 col-sm-2">' . $item . '</div>';
+        $grane .= '<div class="col-xs-3 col-sm-'.$lung.'">' . $item . '</div>';
     }
+    $lung=3;
+    if (count($arr2)>4)
+        $lung=2;
     foreach ($arr2 as $item) {
-        $grane2 .= '<div class="col-xs-3 col-sm-3">' . $item . '</div>';
+        $grane2 .= '<div class="col-xs-3 col-sm-'.$lung.'">' . $item . '</div>';
     }
     $out = '<div role="tabpanel" class="tab-pane fade ' . $str . '" id="' . $id . '">
                 <div class="row">
