@@ -71,6 +71,10 @@ else
             <a href="sotto_prodotti.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
                 Categorie Frankfurt
+            </span></a>&nbsp;
+            <a href="sotto_prodotti_utens.php" class="torna2"><span
+                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Diamantati
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -82,15 +86,15 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-        <div class="service-tabs text-center">
+       <!-- <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">RESINOIDI DIAMANTATI</a></li>
-                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">RESINOIDI DIAMANTATI</a></li>
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">RESINOIDI DIAMANTATI</a></li>
+                <li role="presentation" class="<?/*= $due */?>"><a href="#due" data-toggle="tab">RESINOIDI DIAMANTATI</a></li>
             </ul>
-        </div>
+        </div>-->
         <div class="tab-content service-content">
-            <?= elab(23, 'RESINOIDI DIAMANTATI', 'resinoidi', 'uno', $uno, "", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
-            <?= elab(27, 'RESINOIDI DIAMANTATI', 'resinoidi', 'due', $due, "", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
+            <?= elabD1(23, 'RESINOIDI DIAMANTATI', 'resinoidi', 'uno', $uno, "", 'a richiesta','', array(16, 24, 36, 46, 60, 80, 120),array(),array(),array(),'GRANE','','','') ?>
+            <?= elabD2(27, 'RESINOIDI DIAMANTATI', 'resinoidi', 'due', $due, "", 'a richiesta','', array(16, 24, 36, 46, 60, 80, 120),array(),array(),array(),'GRANE','','','').'</div>' ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

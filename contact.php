@@ -42,8 +42,9 @@
 </div><!-- breadcrumb section -->
 
 <div class="contact-form-section section-padding">
-    <div id="gmap" style=""></div>
+
     <div class="container">
+
         <div class="row">
             <div class="col-sm-7">
                 <div class="contact-info">
@@ -80,7 +81,7 @@
                         </div>
                         <div class="col-md-12 col-sm-12 form-group">
                             <i aria-hidden="true"></i>
-                            <textarea name="message" data-msg-required="Inserisci un messaggio." required="" aria-required="true" id="message"  class="form-control message-filed" rows="7" placeholder="Messaggio..."></textarea>
+                            <textarea name="message" data-msg-required="Inserisci un messaggio." required="" aria-required="true" id="message"  class="form-control message-filed" rows="5" placeholder="Messaggio..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Invia<i class="fa fa-arrow-right"></i></button>
                         <div class="alert alert-success hidden" id="contactSuccess">
@@ -94,7 +95,9 @@
 
                 </div>
             </div>
+            <div class="col-sm-5"><div id="gmap" style=""></div></div>
         </div><!-- row -->
+
     </div><!-- container -->
 </div><!-- contact form section -->
 

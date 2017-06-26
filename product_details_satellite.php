@@ -63,15 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>TANGENZIALI<span> SPAZZOLE</span></h1>
+            <h1>SATELLITE<span> DIAMANTATI</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti_tan.php" class="torna"><span
+            <a href="sotto_prodotti_utens.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Tangenziali
-            </span></a>&nbsp;
-            <a href="sotto_prodotti_spaz.php" class="torna2"><span
-                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Spazzole
+                Categorie Diamantati
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -83,15 +79,20 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-     <!-- <div class="service-tabs text-center">
+     <!--<div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">LEVIGACOSTE PER SMUSSO</a></li>
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">FRONTALE 150MM TIPO PIENO (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?/*= $due */?>"><a href="#due" data-toggle="tab">FRONTALE 130MM TIPO FIORE (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?/*= $tre */?>"><a href="#tre" data-toggle="tab">FRONTALE 130MM TIPO FIORE (attacco chiocciola)</a></li>
+                <li role="presentation" class="<?/*= $quattro */?>"><a href="#quattro" data-toggle="tab">FRONTALE 140MM TIPO FIORE (attacco chiocciola)</a></li>
 
             </ul>
         </div>-->
 
         <div class="tab-content service-content">
-        <?= elab(14, 'SPAZZOLE', 'tan-spazzole', 'uno', $uno,'','a richiesta',array(24,36,46,60,80,120,180,240,320,500)) ?>
+        <?= elab(44, 'METALLICI DIAMANTATI', 'satellite', 'uno', $uno,'') ?>
+
+
         </div>
     </div><!-- container -->
 </div><!-- service section -->

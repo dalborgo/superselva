@@ -14,7 +14,9 @@ function elab($img, $nome, $fol, $id, $act = '', $desc = '', $pz = '20', $arr = 
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="service-image">
-                            <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            <a class="image-link2" href="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">                            
+                                <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -66,7 +68,9 @@ function elab2($img, $nome, $fol, $id, $act = '', $desc = '', $pz = '15 - diamet
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="service-image">
+                        <a class="image-link2" href="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
                             <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -126,7 +130,9 @@ function elab4($img, $nome, $fol, $id, $act = '', $desc = '', $pz = '12', $pz2 =
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="service-image">
+                        <a class="image-link2" href="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
                             <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -194,7 +200,9 @@ function elabD1($img,  $nome, $fol, $id, $act = '', $desc = '', $pz = '12', $pz2
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="service-image">
+                        <a class="image-link2" href="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
                             <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -264,7 +272,9 @@ function elabD2($img,  $nome, $fol, $id, $act = '', $desc = '', $pz = '12', $pz2
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="service-image">
+                        <a class="image-link2" href="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
                             <img class="img-responsive" src="images/prod_dett/' . $fol . '/' . $img . '.png" alt="image">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -299,8 +309,7 @@ function elabD2($img,  $nome, $fol, $id, $act = '', $desc = '', $pz = '12', $pz2
                             </div>
                         </div>
                     </div>
-                </div>
-            
+                </div>            
 ';
 
 

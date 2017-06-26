@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>MÜNCHEN</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -60,8 +64,8 @@
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('VELOX', 'MÜNCHEN VELOX','munchen-vx','05') ?>
-            <?= getSotto('SUPER-SINTETICO', 'MÜNCHEN RESINA','munchen-rs','22') ?>
+            <?= getSotto('SUPER-SINTETICO', 'MÜNCHEN RESINA','munchen-rs','05') ?>
+            <?= getSotto('VELOX', 'MÜNCHEN VELOX','munchen-vx','22') ?>
             <?= getSotto('5/EXTRA', 'MÜNCHEN LUCIDANTI','munchen-lc','18') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->

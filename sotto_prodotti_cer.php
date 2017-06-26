@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>CERE</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -53,13 +57,13 @@
     <div class="portfolio-content">
         <div class="text-center container listaPers">
             <ul class="portfoli-menu">
-                <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".cere" class="">Cera</a></li>
+<!--                <li><a href="#" class="active" data-filter="*">Tutti</a></li>-->
+<!--                <li><a href="#" data-filter=".cere" class="">Cera</a></li>-->
             </ul>
         </div>
         <div class="row portfolio-filter">
             <?= getSotto('CERA LIQUIDA', 'CERE','cere','33') ?>
-            <?= getSotto('CERA SOLIDA', 'CERE','cere','31') ?>
+            <?= getSotto('CERA SOLIDA', 'CERE','cere','31',2) ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

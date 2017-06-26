@@ -8,6 +8,7 @@ if (isset($_GET["ord"])) {
 } else {
     $ord = 1;
 }
+
 if ($ord == 1)
     $uno = 'active';
 elseif ($ord == 2)
@@ -71,6 +72,10 @@ else
             <a href="sotto_prodotti.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
                 Categorie Frankfurt
+            </span></a>&nbsp;
+            <a href="sotto_prodotti_utens.php" class="torna2"><span
+                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Diamantati
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -82,27 +87,27 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-        <div class="service-tabs text-center">
+       <!-- <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">UTENSILI METALLICI
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">UTENSILI METALLICI
                         DIAMANTATI</a></li>
-                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">UTENSILI METALLICI
+                <li role="presentation" class="<?/*= $due */?>"><a href="#due" data-toggle="tab">UTENSILI METALLICI
                         DIAMANTATI</a></li>
-                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">UTENSILI METALLICI
+                <li role="presentation" class="<?/*= $tre */?>"><a href="#tre" data-toggle="tab">UTENSILI METALLICI
                         DIAMANTATI</a></li>
-                <li role="presentation" class="<?= $tre ?>"><a href="#quattro" data-toggle="tab">UTENSILI METALLICI
+                <li role="presentation" class="<?/*= $tre */?>"><a href="#quattro" data-toggle="tab">UTENSILI METALLICI
                         DIAMANTATI</a></li>
             </ul>
-        </div>
+        </div>-->
 
         <div class="tab-content service-content">
-            <?= elab(40, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'uno', $uno, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
+            <?= elabD1(40, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'uno', $uno, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta','',array(0,1,2,3,4,5,6), array(16, 24, 36, 46, 60, 80, 120),array(),array(),'POSIZ.','GRANE','','') ?>
 
-            <?= elab(41, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'due', $due, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
+            <?= elabD2(41, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'due', $due, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta', '',array(0,1,2,3,4,5,6), array(16, 24, 36, 46, 60, 80, 120),array(),array(),'POSIZ.','GRANE','','') ?>
 
-            <?= elab(42, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'tre', $tre, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
+            <?= elabD2(42, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'tre', $tre, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta','',array(0,1,2,3,4,5,6), array(16, 24, 36, 46, 60, 80, 120),array(),array(),'POSIZ.','GRANE','','') ?>
 
-            <?= elab(43, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'quattro', $quattro, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta', array(16, 24, 36, 46, 60, 80, 120)) ?>
+            <?= elabD2(43, 'UTENSILI METALLICI DIAMANTATI', 'metallici', 'quattro', $quattro, "Segmenti, frankfurt e per la levigatura di marmi, graniti, e pietre naturali. Disponibili in varie durezze. ", 'a richiesta','',array(0,1,2,3,4,5,6), array(16, 24, 36, 46, 60, 80, 120),array(),array(),'POSIZ.','GRANE','','').'</div>' ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

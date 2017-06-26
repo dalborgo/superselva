@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>RULLI</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -60,7 +64,7 @@
         </div>
         <div class="row portfolio-filter">
             <?= getSotto('MAGNESITE PER GRANITO', 'RULLI TERZAGO','terzago','62') ?>
-            <?= getSotto('MAGNESITE PER GRANITO', 'RULLI A VITE','avite','80') ?>
+            <?= getSotto('VELOX', 'RULLI A VITE','avite','80') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

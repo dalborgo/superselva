@@ -63,15 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>TANGENZIALI<span> SPAZZOLE</span></h1>
+            <h1>SPAZZOLE<span> FRANKFURT</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti_tan.php" class="torna"><span
+            <a href="sotto_prodotti_spaz.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Tangenziali
-            </span></a>&nbsp;
-            <a href="sotto_prodotti_spaz.php" class="torna2"><span
-                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Spazzole
+                Categorie SPAZZOLE
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -83,15 +79,16 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-     <!-- <div class="service-tabs text-center">
+        <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">LEVIGACOSTE PER SMUSSO</a></li>
-
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">ACCIAIO TREFOLI</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">SPAZZOLA PER ANTICATO</a></li>
             </ul>
-        </div>-->
+        </div>
 
         <div class="tab-content service-content">
-        <?= elab(14, 'SPAZZOLE', 'tan-spazzole', 'uno', $uno,'','a richiesta',array(24,36,46,60,80,120,180,240,320,500)) ?>
+        <?= elab(15, 'ACCIAIO TREFOLI', 'spazzole', 'uno', $uno,"Spazzole prodotte in varie forme e granulometrie per ottenere l’effetto ANTICATO su marmi e pietre naturali. ",'a richiesta', array('<abbr title="Acciaio Trefoli">A.TREFOLI</abbr>')) ?>
+        <?= elab(13, 'SPAZZOLA PER ANTICATO', 'spazzole', 'due', $due,"Spazzole prodotte in varie forme e granulometrie per ottenere l’effetto ANTICATO su marmi e pietre naturali. ",'a richiesta', array(24,36,46,60,80,120,180,240,320,500)) ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

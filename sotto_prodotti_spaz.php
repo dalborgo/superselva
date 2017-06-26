@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>SPAZZOLE PER ANTICATO</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -60,10 +64,10 @@
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('LEVIGACOSTE 100MM - M 14', 'SPAZZOLE LEVIGACOSTE','sp-lev','16') ?>
-            <?= getSotto('FRANKFURT', 'SPAZZOLE FRANKFURT','sp-fra','15') ?>
-            <?= getSotto('FRANKFURT', 'SPAZZOLE FRANKFURT','sp-fra','13') ?>
-            <?= getSotto('TANGENZIALI', 'SPAZZOLE TANGENZIALI','sp-tan','14') ?>
+            <?= getSotto('LEVIGACOSTE 100MM - M 14', 'SPAZZOLE LEVIGACOSTE','lc-spazzole','16') ?>
+            <?= getSotto('FRANKFURT ACCIAIO TREFOLI', 'SPAZZOLE FRANKFURT','spazzole','15',1) ?>
+            <?= getSotto('FRANKFURT PER ANTICATO', 'SPAZZOLE FRANKFURT','spazzole','13',2) ?>
+            <?= getSotto('TANGENZIALI', 'SPAZZOLE TANGENZIALI','tan-spazzole','14') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

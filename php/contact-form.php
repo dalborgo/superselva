@@ -7,7 +7,7 @@ header('Content-type: application/json');
 //require 'php-mailer/class.phpmailer.php';
 
 // Your email address
-$to = 'marco@dalborgo.it';
+$to = 'info@superselva.it';
 //$to = 'info@asten.it';
 
 $subject = 'Mail dal sito';

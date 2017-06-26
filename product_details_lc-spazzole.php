@@ -68,6 +68,10 @@ else
             <a href="sotto_prodotti_lc.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
                 Categorie Levigacoste
+            </span></a>&nbsp;
+            <a href="sotto_prodotti_spaz.php" class="torna2"><span
+                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Spazzole
             </span></a>
         </div>
     </div><!-- breadcrumb content -->

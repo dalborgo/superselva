@@ -33,8 +33,8 @@
                                 </div>
                                 <div class="box-title">
                                     <h3>Chiamaci</h3>
-                                    <p>Telefono: +39 045 7847122 </p>
-                                    <p>Fax: +39 045 7847032</p>
+                                    <p>Telefono: <a href="tel:0457847122" class="scuro">+39 045 7847122</a></p>
+                                    <p>Fax: <a href="tel:0457847122" class="scuro">+39 045 7847032</a></p>
                                 </div>
                             </div>
                         </div>
@@ -50,14 +50,11 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="col-sm-6 copyright-text">
-                        <p>&copy; Superselva s.r.l. 2016 | Design By <a href="http://www.asten.it/">Asten Srl</a></p>
+                        Superselva S.r.l. - Via Trento, 24 - 37030 Selva di Progno (VR)<br>P.iva e Cod. Fisc. 01564170239<br>PEC: <a href="mailto:superselva@pec.it">superselva@pec.it</a>
                     </div>
 
-                    <div class="col-sm-6">
-                        <ul class="footer-social list-inline">
-                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                            <li class="arrow-top"><a href="#"><i class="fa fa-arrow-up"></i></a></li>
-                        </ul>
+                    <div class="col-sm-6 copyright-text">
+                            <p>&copy; Superselva s.r.l. 2016 | Design By <a href="http://www.asten.it/" target="_blank">Asten Srl</a></p><p><a href="//www.iubenda.com/privacy-policy/8156752" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></p>
                     </div>
                 </div>
             </div><!-- footer bottom -->

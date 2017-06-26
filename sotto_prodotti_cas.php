@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>CASSANI</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -54,14 +58,14 @@
         <div class="text-center container listaPers">
             <ul class="portfoli-menu">
                 <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".cas-luc" class="">Cassani Velox</a></li>
-                <li><a href="#" data-filter=".cas-res" class="">Cassani Resina</a></li>
-                <li><a href="#" data-filter=".cas-vel" class="">Cassani Lucidanti</a></li>
+                <li><a href="#" data-filter=".cas-vel" class="">Cassani Velox</a></li>
+                <li><a href="#" data-filter=".cas-mag" class="">Cassani Magnesite</a></li>
+                <li><a href="#" data-filter=".cas-luc" class="">Cassani Lucidanti</a></li>
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('VELOX', 'CASSANI VELOX','cas-vel','06') ?>
-            <?= getSotto('SUPER-SINTETICO', 'CASSANI RESINA','cas-res','12') ?>
+            <?= getSotto('VELOX', 'CASSANI VELOX','cas-vel','12') ?>
+            <?= getSotto('MAGNESITE', 'CASSANI MAGNESITE','cas-mag','06') ?>
             <?= getSotto('5/EXTRA', 'CASSANI LUCIDANTI','cas-luc','04') ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->

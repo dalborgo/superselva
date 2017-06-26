@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>PROTETTIVI</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -53,13 +57,13 @@
     <div class="portfolio-content">
         <div class="text-center container listaPers">
             <ul class="portfoli-menu">
-                <li><a href="#" class="active" data-filter="*">Tutti</a></li>
-                <li><a href="#" data-filter=".protettivi" class="">Protettivi</a></li>
+<!--                <li><a href="#" class="active" data-filter="*">Tutti</a></li>-->
+<!--                <li><a href="#" data-filter=".protettivi" class="">Protettivi</a></li>-->
             </ul>
         </div>
         <div class="row portfolio-filter">
             <?= getSotto('IDROPELLENTE', 'PROTETTIVI','protettivi','35') ?>
-            <?= getSotto('AUTOLUCIDANTE', 'PROTETTIVI','protettivi','34') ?>
+            <?= getSotto('AUTOLUCIDANTE', 'PROTETTIVI','protettivi','34',2) ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

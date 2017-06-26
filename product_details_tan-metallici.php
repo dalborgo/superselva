@@ -68,6 +68,10 @@ else
             <a href="sotto_prodotti_tan.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
                 Categorie Tangenziali
+            </span></a>&nbsp;
+            <a href="sotto_prodotti_utens.php" class="torna2"><span
+                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Diamantati
             </span></a>
         </div>
     </div><!-- breadcrumb content -->

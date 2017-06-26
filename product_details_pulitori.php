@@ -81,10 +81,10 @@ else
         </div>-->
         <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">PER MARMO</a></li>
-                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">PER MARMO</a></li>
-                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">PER MARMO</a></li>
-                <li role="presentation" class="<?= $tre ?>"><a href="#quattro" data-toggle="tab">PER MARMO</a></li>
+                <li role="presentation" class="<?= $uno ?>"><a href="#uno" data-toggle="tab">PER MARMO - BIANCO</a></li>
+                <li role="presentation" class="<?= $due ?>"><a href="#due" data-toggle="tab">PER MARMO - BIANCO</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#tre" data-toggle="tab">PER MARMO - BIANCO</a></li>
+                <li role="presentation" class="<?= $tre ?>"><a href="#quattro" data-toggle="tab">PER MARMO - BLU</a></li>
             </ul>
         </div>
 

@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
-
     <!-- icons -->
     <link rel="icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
@@ -34,6 +33,7 @@
     <![endif]-->
     <!-- Developed By Grid Bootstrap -->
 
+
 </head>
 <body>
 
@@ -45,7 +45,7 @@
         <div class="container text-center">
             <h1>Superselva</h1>
             <h2 style="font-size: 39px !important;">"Everywhere in the world, where you work marble and granite..."</h2>
-            <a href="#" class="btn btn-primary">Scopri<i class="fa fa-arrow-right"></i></a>
+            <a href="home_prodotti.php" class="btn btn-primary">Scopri<i class="fa fa-arrow-right"></i></a>
         </div><!-- container -->
     </div><!-- home content -->
 </div><!-- home -->
@@ -56,43 +56,40 @@
             <div class="col-sm-4 no-padding">
                 <div class="service crane-lifting image-bg">
                     <div class="overlay"></div>
-                    <div class="image-box">
+                   <!-- <div class="image-box">
                         <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-
-                        <h3>FRANKFURT</h3>
-
-                        <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
-                    </div>
+                        <h3>LEVIGACOSTE</h3>
+                        <h3>CASSANI</h3>
+                        <h3 style="height:0px">SPAZZOLE</h3>
+                    </div>-->
                 </div>
             </div>
             <div class="col-sm-4 no-padding">
                 <div class="service home-plumbing image-bg">
                     <div class="overlay"></div>
-                    <div class="image-box">
+                    <!--<div class="image-box">
                         <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-
-                        <h3>LEVIGACOSTE</h3>
-
-                        <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
-                    </div>
+                        <h3>FRANKFURT</h3>
+                        <h3>PLATÒ - PLATORELLI</h3>
+                        <h3 style="height:0px">MÜNCHEN</h3>
+                    </div>-->
                 </div>
             </div>
             <div class="col-sm-4 no-padding">
                 <div class="service house-plans image-bg">
                     <div class="overlay"></div>
-                    <div class="image-box">
+                   <!-- <div class="image-box">
                         <img class="img-responsive" src="images/varie/diamond.png" alt="Image">
                     </div>
                     <div class="box-title">
-
                         <h3>TANGENZIALI</h3>
-
-                        <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod.</p>
-                    </div>
+                        <h3>VIRGOLE GENOVESI</h3>
+                        <h3 style="height:0px">RULLI</h3>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -104,7 +101,7 @@
     </div><!-- container -->
 </div><!-- services -->
 <div class="service-section section-padding">
-    <div class="container">
+    <div class="container"><a name="societa"></a>
         <div class="section-title text-center scuro">
             <h1>La Nostra</h1>
             <h2 style="color:white">Società</h2>
@@ -242,7 +239,7 @@
     </div><!-- container -->
 </div><!-- service section -->
 
-<div class="features-section section-padding" style="padding-top: 0px">
+<!--<div class="features-section section-padding" style="padding-top: 0px">
     <div class="container">
         <div class="section-title text-center scuro">
             <h1>Perché sceglierci</h1>
@@ -304,7 +301,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- tab pane -->
+                        </div>
 
                         <div role="tabpanel" class="tab-pane" id="awesome">
                             <div class="row">
@@ -327,7 +324,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- tab pane -->
+                        </div>
 
                         <div role="tabpanel" class="tab-pane" id="lifetime">
                             <div class="row">
@@ -351,14 +348,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- tab pane -->
-                    </div><!-- tab content -->
-                </div><!-- right-content -->
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div><!-- row -->
-    </div><!-- container -->
-</div><!-- features section -->
-<div class="portfolio-section" style="padding-bottom: 150px">
+        </div>
+    </div>
+</div>-->
+<div class="portfolio-section" style="padding-bottom: 100px">
     <div class="portfolio-title image-bg">
         <div class="overlay"></div>
         <div class="section-title">
@@ -373,121 +370,189 @@
             <div class="portfolio">
                 <div class="portfolio-item">
                     <img class="img-responsive"
-                         src="images/prod_dett/metallici/40.png" alt="image">
+                         src="images/prod/frankfurt.png" alt="image" >
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
-                        <p>FRANKFURT DIAMANTATI</p>
+                        <a href="sotto_prodotti.php"> <h4>FRANKFURT</h4></a>
+                        <p><a href="product_details_verona.php">Verona</a>, <a href="product_details_germania.php">Germania</a>, <a href="product_details_lucidanti.php">Lucidanti</a></p>
+                        <p><a href="product_details_gomma.php">Gomma Pioli</a>, <a href="product_details_metallici.php">Metallici Diamantati</a></p>
+                        <p><a href="product_details_resinoidi.php">Resinoidi Diamantati</a>, <a href="product_details_pulitori.php">Pulitori</a></p>
+                        <p><a href="product_details_spazzole.php">Spazzole per Anticato</a></p>
+                        <p><a href="product_details_spugne.php">Spugne per Levigato</a></p>
+
                     </div>
                     <div class="portfolio-icons">
-                        <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link"
-                           href=" src="images/prod_dett/metallici/40.png" alt="image">"><i
-                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/metallici/41.png" alt="image">
+                    <img class="img-responsive"
+                         src="images/prod/levigacoste.png" alt="image" >
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
-                        <p>FRANKFURT DIAMANTATI</p>
+                        <a href="sotto_prodotti_lc.php"> <h4>LEVIGACOSTE</h4></a>
+                        <p><a href="product_details_lc-smusso.php">Per Smusso</a>, <a href="product_details_lc-frontale.php">Per Frontale</a></p>
+                        <p><a href="product_details_lc-toro.php">Per Toro</a>, <a href="product_details_lc-metallici.php">Metallici Diamantati</a></p>
+                        <p><a href="product_details_lc-resinoidi.php">Resinoidi Diamantati</a>
+                        <p><a href="product_details_lc-spazzole.php">Spazzole per Anticato</a></p>
+
                     </div>
                     <div class="portfolio-icons">
-                        <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/metallici/42.png"><i
-                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-
-            <!--<div class="portfolio">
-                <div class="portfolio-item">
-                    <img class="img-responsive" src="images/foto/03.jpg" alt="image">
-                </div>
-                <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                        <h4>Ascetic Interior Design</h4>
-                        <p>Interior Project</p>
-                    </div>
-                    <div class="portfolio-icons">
-                        <a href="project-details.html"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/foto/03.jpg"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-            </div>-->
-
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/metallici/43.png" alt="image">
+                    <img class="img-responsive"
+                         src="images/prod/tangenziali.png" alt="image" >
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>UTENSILI METALLICI DIAMANTATI</h4>
-                        <p>FRANKFURT DIAMANTATI</p>
+                        <a href="sotto_prodotti_tan.php"> <h4>TANGENZIALI</h4></a>
+                        <p><a href="product_details_tan-metallici.php">Metallici Diamantati</a></p><p><a href="product_details_tan-resinoidi.php">Resinoidi Diamantati</a></p>
+                        <p><a href="product_details_tan-marmo.php.php">Per Marmo</a>, <a href="product_details_tan-granito.php">Per Granito</a>, <a href="product_details_tan-spazzole.php">Spazzole</a>
+                        </p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_lucidanti-5extra.jpg"><i
-                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/resinoidi/23.png" alt="image">
+                    <img class="img-responsive"
+                         src="images/prod/cassani.png" alt="image" >
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>UTENSILI RESINOIDI DIAMANTATI</h4>
-                        <p>FRANKFURT DIAMANTATI</p>
+                        <a href="sotto_prodotti_cas.php"> <h4>CASSANI</h4></a>
+                        <p><a href="product_details_cas-vel.php">Velox</a>, <a href="product_details_cas-mag.php">Magnesite</a>, <a href="product_details_cas-luc.php">Lucidanti</a>
+                        </p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo1.jpg"><i
-                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-
             <div class="portfolio">
                 <div class="portfolio-item">
-                    <img class="img-responsive" src="images/prod_dett/resinoidi/27.png" alt="image">
+                    <img class="img-responsive"
+                         src="images/prod/plato.png" alt="image" >
                 </div>
                 <div class="portfolio-overlay">
                     <div class="portfolio-info">
-                        <h4>UTENSILI RESINOIDI DIAMANTATI</h4>
-                        <p>FRANKFURT DIAMANTATI</p>
+                        <a href="sotto_prodotti_plato.php"> <h4>PLATÒ - PLATORELLI</h4></a>
+                        <p><a href="product_details_plato250.php">PLATÒ 250MM</a>, <a href="product_details_plato150.php">PLATÒ 150MM</a>
+                        </p>
                     </div>
                     <div class="portfolio-icons">
-                        <a href="product_details.php"><i class="fa fa-link"></i></a>
-                        <a class="image-link" href="images/prod_dett/frankfurt_pulitori-per-marmo2.jpg"><i
-                                    class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
-
-            <!--   <div class="portfolio">
-                   <div class="portfolio-item">
-                       <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
-                   </div>
-                   <div class="portfolio-overlay">
-                       <div class="portfolio-info">
-                           <h4>Ascetic Interior Design</h4>
-                           <p>Interior Project</p>
-                       </div>
-                       <div class="portfolio-icons">
-                           <a href="project-details.html"><i class="fa fa-link"></i></a>
-                           <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
-                       </div>
-                   </div>
-               </div>-->
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/munchen.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_mun.php"> <h4>MÜNCHEN</h4></a>
+                        <p><a href="product_details_munchen-vx.php">Velox</a>, <a href="product_details_munchen-rs.php">Resina</a>, <a href="product_details_munchen-lc.php">Lucidanti</a>
+                        </p>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/virgole-genovesi.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_vir.php"> <h4>VIRGOLE GENOVESI</h4></a>
+                        <p><a href="product_details_vir-vel.php">Velox</a>, <a href="product_details_vir-res.php.php">Resina</a>, <a href="product_details_vir-luc.php">Lucidanti</a>
+                        </p>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/rulli.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_rulli.php"> <h4>RULLI</h4></a>
+                        <p><a href="product_details_terzago.php">Terzago</a>, <a href="product_details_avite.php">A Vite</a>
+                        </p>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/utensili-diamantati.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_utens.php"> <h4>UTENSILI DIAMANTATI</h4></a>
+                        <p><a href="product_details_metallici.php">Frankfurt Metallici</a>, <a href="product_details_satellite.php">Satelliti Metallici</a></p>
+                        <p><a href="product_details_resinoidi.php">Frankfurt Resinoidi</a>, <a href="product_details_lc-resinoidi.php">Levigacoste Resinoidi</a></p>
+                        <p><a href="product_details_lc-resinoidi.php">Levigacoste Resinoidi</a>, <a href="product_details_tan-resinoidi.php">Tangenziali Resinoidi</a></p>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/cere.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_cer.php"> <h4>CERE</h4></a>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/protettivi.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_prot.php"> <h4>PROTETTIVI</h4></a>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="img-responsive"
+                         src="images/prod/spazzole.png" alt="image" >
+                </div>
+                <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                        <a href="sotto_prodotti_spaz.php"> <h4>SPAZZOLE PER ANTICATO</h4></a>
+                        <p><a href="product_details_lc-spazzole.php">Spazzole Levigacoste</a></p>
+                        <p><a href="product_details_spazzole.php">Spazzole Frankfurt</a></p>
+                        <p><a href="product_details_tan-spazzole.php">Spazzole Tangenziali</a></p>
+                    </div>
+                    <div class="portfolio-icons">
+                    </div>
+                </div>
+            </div>
         </div>
     </div><!-- portfolio content -->
 </div>
@@ -503,6 +568,7 @@
                 </div>
             </div>
             <div class="col-md-7 col-sm-12">
+                <a name="eventi"></a>
                 <div class="process-accordion">
                     <div class="process-info">
                         <div class="section-title">
@@ -510,7 +576,7 @@
                             <h2>Eventi</h2>
                         </div>
                         <div class="panel-group" id="process-accordion" role="tablist">
-                            <div class="panel panel-default active-process">
+                            <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="initiation">
                                     <div class="process-number">
                                         <img class="img-responsive" src="images/process/2.png" alt="image">
@@ -520,17 +586,15 @@
                                     </div>
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#process-accordion"
-                                           href="#process" aria-expanded="true" aria-controls="process">
+                                           href="" aria-expanded="true" aria-controls="process" style="cursor: default">
                                             EXPOSTONE - Mosca
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="process" class="panel-collapse collapse in" role="tabpanel"
+                                <div id="process" class="panel-collapse" role="tabpanel"
                                      aria-labelledby="initiation">
                                     <div class="panel-body">
-                                        <p>25 - 28 Giugno 2013<br><img class="img-responsive"
-                                                                       src="images/eventi/expostone-2013.jpg"
-                                                                       style="max-width: 80%"></p>
+                                        <p>8 Giugno 2017</p>
                                     </div>
                                 </div>
                             </div><!-- panel-default -->
@@ -545,15 +609,15 @@
                                     </div>
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#process-accordion"
-                                           href="#process-one" aria-expanded="true" aria-controls="process-one">
+                                           href="" aria-expanded="true" aria-controls="process-one" style="cursor: default">
                                             MARMOMACC - Verona
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="process-one" class="panel-collapse collapse" role="tabpanel"
+                                <div id="process-one" class="panel-collapse" role="tabpanel"
                                      aria-labelledby="selection">
                                     <div class="panel-body">
-                                        <p>27 - 30 Settembre 2017<br><br></p>
+                                        <p>27 - 30 Settembre 2017</p>
                                     </div>
                                 </div>
                             </div><!-- panel-default -->
@@ -568,41 +632,20 @@
                                     </div>
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#process-accordion"
-                                           href="#process-two" aria-expanded="true" aria-controls="process-two">
+                                           href="" aria-expanded="true" aria-controls="process-two" style="cursor: default">
                                             BIG 5 Show - DUBAI (UAE)
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="process-two" class="panel-collapse collapse" role="tabpanel"
+                                <div id="process-two" class="panel-collapse" role="tabpanel"
                                      aria-labelledby="programs">
                                     <div class="panel-body">
-                                        <p>25 - 28 Novembre 2013<br><br></p>
+                                        <p><a href="https://www.thebig5.ae/" style="color:white" target="_blank">26-29
+                                                Novembre 2017</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div><!-- panel-default -->
-
-                            <!--<div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="finalize">
-
-                                    <div class="process-number">
-                                        <img class="img-responsive" src="images/process/5.png" alt="image">
-                                    </div>
-                                    <div class="process-bg">
-                                        <img class="img-responsive" src="images/footer/2g.png" alt="image">
-                                    </div>
-                                    <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-three" aria-expanded="true" aria-controls="process-three">
-                                    Finalize Construction
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="process-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="finalize">
-                                    <div class="panel-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
-                                    </div>
-                                </div>
-                            </div>-->
-                            <!-- panel-default -->
                         </div>
                     </div>
                 </div>
@@ -939,7 +982,7 @@
                 </div>
                 <div class="brand-button">
 
-                    <a href="#" class="btn btn-primary">Contattaci<span><i class="fa fa-arrow-right"></i></span></a>
+                    <a href="contact.php" class="btn btn-primary">Contattaci<span><i class="fa fa-arrow-right"></i></span></a>
 
                 </div>
             </div>
@@ -953,7 +996,8 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/modernizr.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.min.js"></script>
+<script src="https://kryogenix.org/code/browser/smoothscroll/smoothscroll.js"></script>
+<!--<script src="js/smoothscroll.min.js"></script>-->
 <script src="js/jquery.scrollUp.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>

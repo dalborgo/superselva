@@ -145,7 +145,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .section-padding {
-	padding-top: 75px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
@@ -589,7 +589,7 @@ a:after, a:before, .btn.btn-primary i,
 /* Services */
 
 .services {
-	margin-top: -170px;
+	margin-top: -54px;
 	background-color: #f4f4f4;
 }
 
@@ -597,7 +597,8 @@ a:after, a:before, .btn.btn-primary i,
 	padding:15px 24px;
 	font-size: 13px;
 	font-family: 'montserratregular';
-	min-height:165px;
+	min-height:10px;
+	/*mod*/
 }
 
 .crane-lifting,
@@ -608,7 +609,7 @@ a:after, a:before, .btn.btn-primary i,
 
 .service.home-plumbing {
 	padding-top: 40px;
-	min-height:190px;
+	min-height: 10px;
 }
 
 .crane-lifting {
@@ -3275,18 +3276,18 @@ a:after, a:before, .btn.btn-primary i,
  ========================================================================== */
 
 .contact-form-section {
-	padding: 135px 0;	
-    position: relative;	
+	padding-top: 80px;
+	padding-bottom: 80px;
+    position: relative;
 }
 
 #gmap {
     width: 100%;
-    height: 590px;
+    height: 736px;
 }
 
 .contact-form-section .contact-info {
-	position: absolute;
-	bottom: -105px;
+	position: relative;
 	left: 0;
 	width: 100%;
     padding: 0 30px;
@@ -3348,7 +3349,6 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .contact-form textarea {
-	min-height: 238px;
 	padding-top: 15px;
 	resize:none;
 }
@@ -3631,14 +3631,33 @@ a.torna span.tornasc:hover{
 	transition: all 0.4s ease-in-out 0s;
 	color:#F3CC29;
 }
+a.torna2 span.tornasc:hover{
+	transition: all 0.4s ease-in-out 0s;
+	color: lightgray;
+}
 span.freccia {
 	 background-color: #F3CC29;
 	 color: #0B0B0B;
 	 padding: 8px;
  }
+span.freccia2 {
+	background-color: lightgray;
+	color: #0B0B0B;
+	padding: 8px;
+}
 
 span.tornasc {
 	background-color: #0b0b0b;
 	padding: 10px;
 	color: #fff;
 }
+
+a.scuro:hover {
+	transition: all 0.4s ease-in-out 0s;
+	color:#444E4C;
+	font-weight:bold;
+}
+a.scuro {
+	color:gray;
+}
+

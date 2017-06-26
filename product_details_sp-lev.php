@@ -63,15 +63,11 @@ else
     <div class="overlay"></div>
     <div class="breadcrumb-content">
         <div class="container text-center">
-            <h1>TANGENZIALI<span> SPAZZOLE</span></h1>
+            <h1>SPAZZOLE<span> LEVIGACOSTE</span></h1>
             <p>The products we create inspire us, reflect who we are as a society.</p><br>
-            <a href="sotto_prodotti_tan.php" class="torna"><span
+            <a href="sotto_prodotti_spaz.php" class="torna"><span
                         class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Tangenziali
-            </span></a>&nbsp;
-            <a href="sotto_prodotti_spaz.php" class="torna2"><span
-                        class="freccia2"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
-                Categorie Spazzole
+                Categorie SPAZZOLE
             </span></a>
         </div>
     </div><!-- breadcrumb content -->
@@ -83,15 +79,15 @@ else
             <h1>Our Services</h1>
             <h2>We Offer Our Clients</h2>
         </div>-->
-     <!-- <div class="service-tabs text-center">
+  <!--      <div class="service-tabs text-center">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">LEVIGACOSTE PER SMUSSO</a></li>
-
+                <li role="presentation" class="<?/*= $uno */?>"><a href="#uno" data-toggle="tab">SPAZZOLE PER ANTICATO</a>
+                </li>
             </ul>
         </div>-->
 
         <div class="tab-content service-content">
-        <?= elab(14, 'SPAZZOLE', 'tan-spazzole', 'uno', $uno,'','a richiesta',array(24,36,46,60,80,120,180,240,320,500)) ?>
+        <?= elab2(16, 'LEVIGACOSTE 100M - M 14', 'sp-lev', 'uno', $uno,'spazzole prodotte in vari diametri e granulometrie per ottenere l’effetto ANTICATO su marmi e pietre naturali. Queste spazzole sono prodotte con <strong>abrasivo al carburo di silicio</strong> ma possono essere prodotte anche con <strong>filo diamantato</strong>. ','a richiesta','',array(36,46,60,80,100,120,180,320,500),array('altre grane:','a richiesta'),'GRANE','') ?>
         </div>
     </div><!-- container -->
 </div><!-- service section -->

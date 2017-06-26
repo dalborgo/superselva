@@ -44,7 +44,11 @@
     <div class="breadcrumb-content">
         <div class="container text-center">
             <h1><span>PLATÒ - PLATORELLI</span></h1>
-            <p>The products we create inspire us, reflect who we are as a society.</p>
+            <p>The products we create inspire us, reflect who we are as a society.</p><br>
+            <a href="home_prodotti.php" class="torna"><span
+                        class="freccia"><i class="fa fa-arrow-left"></i></span><span class="tornasc">
+                Categorie Prodotti
+            </span></a>
         </div>
     </div><!-- breadcrumb content -->
 </div>
@@ -59,12 +63,12 @@
             </ul>
         </div>
         <div class="row portfolio-filter">
-            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','57') ?>
-            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','60') ?>
-            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','71') ?>
-            <?= getSotto('PLATÒ', 'PLATÒ 250MM','plato250','79') ?>
-            <?= getSotto('PLATORELLI', 'PLATORELLI 150MM','plato150','19') ?>
-            <?= getSotto('PLATORELLI', 'PLATORELLI 150MM','plato150','50') ?>
+            <?= getSotto('MAGNESITE', 'PLATÒ 250MM','plato250','57') ?>
+            <?= getSotto('RESINA', 'PLATÒ 250MM','plato250','60',2) ?>
+            <?= getSotto('VELOX', 'PLATÒ 250MM','plato250','71',3) ?>
+            <?= getSotto('LUCIDANTI 5/EXTRA', 'PLATÒ 250MM','plato250','79',4) ?>
+            <?= getSotto('VELOX', 'PLATORELLI 150MM','plato150','19') ?>
+            <?= getSotto('MAGNESITE', 'PLATORELLI 150MM','plato150','50',2) ?>
         </div> <!-- row -->
     </div> <!-- portfolio content -->
 </div> <!-- portfolio section -->

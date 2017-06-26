@@ -144,7 +144,7 @@
                 <div class="col-sm-4 no-padding">
                     <div class="item item-right">
                         <div class="service-image">
-                            <a href="sotto_prodotti_utens.php"><img class="img-responsive" src="images/prod/utensili-diamantati.jpg" width="200px" alt="Image"></a>
+                            <a href="sotto_prodotti_utens.php"><img class="img-responsive" src="images/prod/utensili-diamantati.png" width="200px" alt="Image"></a>
                         </div>
                         <a href="sotto_prodotti_utens.php"><h4>UTENSILI DIAMANTATI</h4></a>
                     </div>
@@ -161,7 +161,7 @@
                 <div class="col-sm-4 no-padding">
                     <div class="item item-left">
                         <div class="service-image">
-                            <a href="sotto_prodotti_cer.php"><img class="img-responsive" src="images/prod/cere-protettivi.png" width="200px" alt="Image"></a>
+                            <a href="sotto_prodotti_cer.php"><img class="img-responsive" src="images/prod/cere.png" width="200px" alt="Image"></a>
                         </div>
                         <a href="sotto_prodotti_cer.php"><h4>CERE</h4></a>
                     </div>
@@ -170,7 +170,7 @@
                 <div class="col-sm-4 no-padding">
                     <div class="item item-middle">
                         <div class="service-image">
-                            <a href="sotto_prodotti_prot.php"><img class="img-responsive" src="images/prod/cere-protettivi.png" width="200px" alt="Image"></a>
+                            <a href="sotto_prodotti_prot.php"><img class="img-responsive" src="images/prod/protettivi.png" width="200px" alt="Image"></a>
                         </div>
                         <a href="sotto_prodotti_prot.php"><h4>PROTETTIVI</h4></a>
                     </div>
